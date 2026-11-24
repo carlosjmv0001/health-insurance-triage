@@ -1,0 +1,91 @@
+=== exp2a_newbiz | M_lam00 ===
+Safety Rule (Recall>=70%): age >= 70 OR collective OR reimbursement
+
+-- Shallow Tree (depth=1) --
+|--- type_policy_dg_I <= 0.50
+|   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- class: 0
+
+
+-- Shallow Tree (depth=2) --
+|--- type_policy_dg_I <= 0.50
+|   |--- C_GE_P <= 19.50
+|   |   |--- class: 0
+|   |--- C_GE_P >  19.50
+|   |   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- age <= 1.50
+|   |   |--- class: 1
+|   |--- age >  1.50
+|   |   |--- class: 0
+
+
+=== exp2a_newbiz | M_lam15 ===
+Safety Rule (Recall>=70%): age >= 70 OR collective OR reimbursement
+
+-- Shallow Tree (depth=1) --
+|--- type_policy_dg_I <= 0.50
+|   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- class: 0
+
+
+-- Shallow Tree (depth=2) --
+|--- type_policy_dg_I <= 0.50
+|   |--- C_GE_P <= 19.50
+|   |   |--- class: 1
+|   |--- C_GE_P >  19.50
+|   |   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- n_insured_prov <= 7600.50
+|   |   |--- class: 0
+|   |--- n_insured_prov >  7600.50
+|   |   |--- class: 0
+
+
+=== exp2a_newbiz | M_lam25 ===
+Safety Rule (Recall>=70%): age >= 70 OR collective OR reimbursement
+
+-- Shallow Tree (depth=1) --
+|--- type_policy_dg_I <= 0.50
+|   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- class: 0
+
+
+-- Shallow Tree (depth=2) --
+|--- type_policy_dg_I <= 0.50
+|   |--- age <= 2.50
+|   |   |--- class: 1
+|   |--- age >  2.50
+|   |   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- n_insured_prov <= 7600.50
+|   |   |--- class: 0
+|   |--- n_insured_prov >  7600.50
+|   |   |--- class: 0
+
+
+=== exp2a_newbiz | M_lam35 ===
+Safety Rule (Recall>=70%): age >= 70 OR collective OR reimbursement
+
+-- Shallow Tree (depth=1) --
+|--- type_policy_dg_I <= 0.50
+|   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- class: 0
+
+
+-- Shallow Tree (depth=2) --
+|--- type_policy_dg_I <= 0.50
+|   |--- age <= 2.50
+|   |   |--- class: 1
+|   |--- age >  2.50
+|   |   |--- class: 1
+|--- type_policy_dg_I >  0.50
+|   |--- n_insured_prov <= 7600.50
+|   |   |--- class: 0
+|   |--- n_insured_prov >  7600.50
+|   |   |--- class: 0
+

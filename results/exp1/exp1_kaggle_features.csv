@@ -1,0 +1,31 @@
+margin_def,feature_set,model,pct_referred,profit_M,gain_M
+m_D0,F1,Shallow Tree (depth=2),15.96,14.7453,3.344
+m_D0,F1,Decision Tree (depth=5),20.36,15.0886,3.6874
+m_D0,F1,Logistic Regression,18.98,15.1174,3.7161
+m_D0,F1,HistGradientBoosting (cls),21.0,15.0622,3.6609
+m_D0,F1,MLP (cls),23.86,14.9252,3.5239
+m_D0,F2,Shallow Tree (depth=2),40.33,17.0591,5.6578
+m_D0,F2,Decision Tree (depth=5),30.47,17.4952,6.094
+m_D0,F2,Logistic Regression,32.76,17.6876,6.2864
+m_D0,F2,HistGradientBoosting (cls),31.32,17.5984,6.1972
+m_D0,F2,MLP (cls),32.22,17.1576,5.7564
+m_D0,F3,Shallow Tree (depth=2),15.96,14.7453,3.344
+m_D0,F3,Decision Tree (depth=5),20.62,15.116,3.7148
+m_D0,F3,Logistic Regression,19.14,15.0937,3.6924
+m_D0,F3,HistGradientBoosting (cls),21.57,15.0752,3.6739
+m_D0,F3,MLP (cls),22.27,15.0061,3.6049
+m_D2,F1,Shallow Tree (depth=2),53.66,2.3867,8.2202
+m_D2,F1,Decision Tree (depth=5),53.87,2.3792,8.2127
+m_D2,F1,Logistic Regression,56.52,2.3467,8.1802
+m_D2,F1,HistGradientBoosting (cls),54.21,2.414,8.2476
+m_D2,F1,MLP (cls),54.65,2.3257,8.1592
+m_D2,F2,Shallow Tree (depth=2),40.33,2.1563,7.9898
+m_D2,F2,Decision Tree (depth=5),45.68,2.8022,8.6357
+m_D2,F2,Logistic Regression,47.61,2.7849,8.6184
+m_D2,F2,HistGradientBoosting (cls),45.52,2.6854,8.5189
+m_D2,F2,MLP (cls),54.73,2.6842,8.5177
+m_D2,F3,Shallow Tree (depth=2),53.66,2.3867,8.2202
+m_D2,F3,Decision Tree (depth=5),53.78,2.3828,8.2163
+m_D2,F3,Logistic Regression,55.66,2.3603,8.1938
+m_D2,F3,HistGradientBoosting (cls),54.27,2.362,8.1955
+m_D2,F3,MLP (cls),53.98,2.4019,8.2354

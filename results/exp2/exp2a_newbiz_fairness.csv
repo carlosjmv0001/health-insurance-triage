@@ -1,0 +1,111 @@
+setting,margin_def,group_col,group_val,policy,n,pct_neg_margin,pct_referred,fpr,tpr,precision
+exp2a_newbiz,M_lam15,gender,F,Rule Engine (Recall>=70%),6977,20.01,17.96,17.36,20.34,22.67
+exp2a_newbiz,M_lam15,gender,F,Shallow Tree (depth=2),6977,20.01,6.09,6.15,5.87,19.29
+exp2a_newbiz,M_lam15,gender,F,Decision Tree (depth=5),6977,20.01,2.75,2.62,3.3,23.96
+exp2a_newbiz,M_lam15,gender,F,HistGradientBoosting (cls),6977,20.01,3.87,3.53,5.23,27.04
+exp2a_newbiz,M_lam15,gender,F,MLP (cls),6977,20.01,1.03,1.06,0.93,18.06
+exp2a_newbiz,M_lam15,gender,M,Rule Engine (Recall>=70%),6414,14.53,19.22,19.15,19.64,14.84
+exp2a_newbiz,M_lam15,gender,M,Shallow Tree (depth=2),6414,14.53,5.68,5.8,4.94,12.64
+exp2a_newbiz,M_lam15,gender,M,Decision Tree (depth=5),6414,14.53,3.49,3.52,3.33,13.84
+exp2a_newbiz,M_lam15,gender,M,HistGradientBoosting (cls),6414,14.53,2.9,2.5,5.26,26.34
+exp2a_newbiz,M_lam15,gender,M,MLP (cls),6414,14.53,0.84,0.86,0.75,12.96
+exp2a_newbiz,M_lam15,age_group,<30,Rule Engine (Recall>=70%),5742,17.61,17.59,17.16,19.58,19.6
+exp2a_newbiz,M_lam15,age_group,<30,Shallow Tree (depth=2),5742,17.61,4.74,4.92,3.86,14.34
+exp2a_newbiz,M_lam15,age_group,<30,Decision Tree (depth=5),5742,17.61,1.6,1.59,1.68,18.48
+exp2a_newbiz,M_lam15,age_group,<30,HistGradientBoosting (cls),5742,17.61,4.82,4.27,7.42,27.08
+exp2a_newbiz,M_lam15,age_group,<30,MLP (cls),5742,17.61,0.91,0.93,0.79,15.38
+exp2a_newbiz,M_lam15,age_group,30-44,Rule Engine (Recall>=70%),5671,18.82,15.25,15.2,15.46,19.08
+exp2a_newbiz,M_lam15,age_group,30-44,Shallow Tree (depth=2),5671,18.82,5.27,5.39,4.78,17.06
+exp2a_newbiz,M_lam15,age_group,30-44,Decision Tree (depth=5),5671,18.82,3.05,3.11,2.81,17.34
+exp2a_newbiz,M_lam15,age_group,30-44,HistGradientBoosting (cls),5671,18.82,2.26,1.98,3.47,28.91
+exp2a_newbiz,M_lam15,age_group,30-44,MLP (cls),5671,18.82,0.99,1.04,0.75,14.29
+exp2a_newbiz,M_lam15,age_group,45-59,Rule Engine (Recall>=70%),1652,12.77,28.87,27.55,37.91,16.77
+exp2a_newbiz,M_lam15,age_group,45-59,Shallow Tree (depth=2),1652,12.77,11.08,10.55,14.69,16.94
+exp2a_newbiz,M_lam15,age_group,45-59,Decision Tree (depth=5),1652,12.77,7.87,7.36,11.37,18.46
+exp2a_newbiz,M_lam15,age_group,45-59,HistGradientBoosting (cls),1652,12.77,2.66,2.5,3.79,18.18
+exp2a_newbiz,M_lam15,age_group,45-59,MLP (cls),1652,12.77,1.03,0.9,1.9,23.53
+exp2a_newbiz,M_lam15,age_group,60+,Rule Engine (Recall>=70%),326,11.96,41.1,38.33,61.54,17.91
+exp2a_newbiz,M_lam15,age_group,60+,Shallow Tree (depth=2),326,11.96,10.74,9.76,17.95,20.0
+exp2a_newbiz,M_lam15,age_group,60+,Decision Tree (depth=5),326,11.96,6.44,5.23,15.38,28.57
+exp2a_newbiz,M_lam15,age_group,60+,HistGradientBoosting (cls),326,11.96,2.15,1.74,5.13,28.57
+exp2a_newbiz,M_lam15,age_group,60+,MLP (cls),326,11.96,0.31,0.35,0.0,0.0
+exp2a_newbiz,M_lam15,area_income_tertile,Low,Rule Engine (Recall>=70%),4494,18.27,15.2,15.11,15.59,18.74
+exp2a_newbiz,M_lam15,area_income_tertile,Low,Shallow Tree (depth=2),4494,18.27,9.43,9.61,8.65,16.75
+exp2a_newbiz,M_lam15,area_income_tertile,Low,Decision Tree (depth=5),4494,18.27,4.25,4.19,4.51,19.37
+exp2a_newbiz,M_lam15,area_income_tertile,Low,HistGradientBoosting (cls),4494,18.27,5.43,4.63,9.01,30.33
+exp2a_newbiz,M_lam15,area_income_tertile,Low,MLP (cls),4494,18.27,1.13,1.23,0.73,11.76
+exp2a_newbiz,M_lam15,area_income_tertile,Mid,Rule Engine (Recall>=70%),4457,17.95,16.54,16.54,16.5,17.91
+exp2a_newbiz,M_lam15,area_income_tertile,Mid,Shallow Tree (depth=2),4457,17.95,5.97,6.34,4.25,12.78
+exp2a_newbiz,M_lam15,area_income_tertile,Mid,Decision Tree (depth=5),4457,17.95,3.37,3.53,2.62,14.0
+exp2a_newbiz,M_lam15,area_income_tertile,Mid,HistGradientBoosting (cls),4457,17.95,2.49,2.38,3.0,21.62
+exp2a_newbiz,M_lam15,area_income_tertile,Mid,MLP (cls),4457,17.95,1.5,1.48,1.62,19.4
+exp2a_newbiz,M_lam15,area_income_tertile,High,Rule Engine (Recall>=70%),4440,15.92,24.01,23.01,29.28,19.42
+exp2a_newbiz,M_lam15,area_income_tertile,High,Shallow Tree (depth=2),4440,15.92,2.23,2.04,3.25,23.23
+exp2a_newbiz,M_lam15,area_income_tertile,High,Decision Tree (depth=5),4440,15.92,1.69,1.5,2.69,25.33
+exp2a_newbiz,M_lam15,area_income_tertile,High,HistGradientBoosting (cls),4440,15.92,2.27,2.06,3.39,23.76
+exp2a_newbiz,M_lam15,area_income_tertile,High,MLP (cls),4440,15.92,0.18,0.19,0.14,12.5
+exp2a_newbiz,M_lam15,type_policy,C,Rule Engine (Recall>=70%),914,17.51,100.0,100.0,100.0,17.51
+exp2a_newbiz,M_lam15,type_policy,C,Shallow Tree (depth=2),914,17.51,55.69,56.23,53.12,16.7
+exp2a_newbiz,M_lam15,type_policy,C,Decision Tree (depth=5),914,17.51,43.11,42.71,45.0,18.27
+exp2a_newbiz,M_lam15,type_policy,C,HistGradientBoosting (cls),914,17.51,20.35,18.83,27.5,23.66
+exp2a_newbiz,M_lam15,type_policy,C,MLP (cls),914,17.51,6.67,6.63,6.88,18.03
+exp2a_newbiz,M_lam15,type_policy,I,Rule Engine (Recall>=70%),12477,17.38,12.6,12.27,14.16,19.53
+exp2a_newbiz,M_lam15,type_policy,I,Shallow Tree (depth=2),12477,17.38,2.24,2.3,1.98,15.36
+exp2a_newbiz,M_lam15,type_policy,I,Decision Tree (depth=5),12477,17.38,0.18,0.16,0.23,22.73
+exp2a_newbiz,M_lam15,type_policy,I,HistGradientBoosting (cls),12477,17.38,2.16,1.86,3.6,28.89
+exp2a_newbiz,M_lam15,type_policy,I,MLP (cls),12477,17.38,0.52,0.54,0.42,13.85
+exp2a_newbiz,M_lam25,gender,F,Rule Engine (Recall>=70%),6977,22.75,17.96,17.61,19.16,24.26
+exp2a_newbiz,M_lam25,gender,F,Shallow Tree (depth=2),6977,22.75,10.46,10.46,10.46,22.74
+exp2a_newbiz,M_lam25,gender,F,Decision Tree (depth=5),6977,22.75,6.34,5.57,8.95,32.13
+exp2a_newbiz,M_lam25,gender,F,HistGradientBoosting (cls),6977,22.75,16.58,15.73,19.47,26.71
+exp2a_newbiz,M_lam25,gender,F,MLP (cls),6977,22.75,17.01,16.07,20.23,27.04
+exp2a_newbiz,M_lam25,gender,M,Rule Engine (Recall>=70%),6414,16.84,19.22,19.07,20.0,17.52
+exp2a_newbiz,M_lam25,gender,M,Shallow Tree (depth=2),6414,16.84,10.52,10.82,9.07,14.52
+exp2a_newbiz,M_lam25,gender,M,Decision Tree (depth=5),6414,16.84,5.64,5.1,8.33,24.86
+exp2a_newbiz,M_lam25,gender,M,HistGradientBoosting (cls),6414,16.84,9.09,7.8,15.46,28.64
+exp2a_newbiz,M_lam25,gender,M,MLP (cls),6414,16.84,6.19,5.7,8.61,23.43
+exp2a_newbiz,M_lam25,age_group,<30,Rule Engine (Recall>=70%),5742,20.25,17.59,17.19,19.17,22.08
+exp2a_newbiz,M_lam25,age_group,<30,Shallow Tree (depth=2),5742,20.25,8.57,8.78,7.74,18.29
+exp2a_newbiz,M_lam25,age_group,<30,Decision Tree (depth=5),5742,20.25,7.92,7.1,11.18,28.57
+exp2a_newbiz,M_lam25,age_group,<30,HistGradientBoosting (cls),5742,20.25,16.49,14.7,23.56,28.93
+exp2a_newbiz,M_lam25,age_group,<30,MLP (cls),5742,20.25,15.53,14.74,18.66,24.33
+exp2a_newbiz,M_lam25,age_group,30-44,Rule Engine (Recall>=70%),5671,21.51,15.25,15.28,15.16,21.39
+exp2a_newbiz,M_lam25,age_group,30-44,Shallow Tree (depth=2),5671,21.51,9.65,9.89,8.77,19.56
+exp2a_newbiz,M_lam25,age_group,30-44,Decision Tree (depth=5),5671,21.51,4.64,3.98,7.05,32.7
+exp2a_newbiz,M_lam25,age_group,30-44,HistGradientBoosting (cls),5671,21.51,10.25,9.46,13.11,27.54
+exp2a_newbiz,M_lam25,age_group,30-44,MLP (cls),5671,21.51,9.01,8.04,12.54,29.94
+exp2a_newbiz,M_lam25,age_group,45-59,Rule Engine (Recall>=70%),1652,14.53,28.87,27.55,36.67,18.45
+exp2a_newbiz,M_lam25,age_group,45-59,Shallow Tree (depth=2),1652,14.53,18.1,17.28,22.92,18.39
+exp2a_newbiz,M_lam25,age_group,45-59,Decision Tree (depth=5),1652,14.53,4.18,3.82,6.25,21.74
+exp2a_newbiz,M_lam25,age_group,45-59,HistGradientBoosting (cls),1652,14.53,9.44,8.71,13.75,21.15
+exp2a_newbiz,M_lam25,age_group,45-59,MLP (cls),1652,14.53,8.84,7.72,15.42,25.34
+exp2a_newbiz,M_lam25,age_group,60+,Rule Engine (Recall>=70%),326,13.5,41.1,39.01,54.55,17.91
+exp2a_newbiz,M_lam25,age_group,60+,Shallow Tree (depth=2),326,13.5,20.55,19.5,27.27,17.91
+exp2a_newbiz,M_lam25,age_group,60+,Decision Tree (depth=5),326,13.5,5.21,5.67,2.27,5.88
+exp2a_newbiz,M_lam25,age_group,60+,HistGradientBoosting (cls),326,13.5,17.18,16.67,20.45,16.07
+exp2a_newbiz,M_lam25,age_group,60+,MLP (cls),326,13.5,10.74,9.93,15.91,20.0
+exp2a_newbiz,M_lam25,area_income_tertile,Low,Rule Engine (Recall>=70%),4494,20.98,15.2,15.01,15.91,21.96
+exp2a_newbiz,M_lam25,area_income_tertile,Low,Shallow Tree (depth=2),4494,20.98,9.95,10.19,9.01,19.02
+exp2a_newbiz,M_lam25,area_income_tertile,Low,Decision Tree (depth=5),4494,20.98,12.75,11.04,19.19,31.59
+exp2a_newbiz,M_lam25,area_income_tertile,Low,HistGradientBoosting (cls),4494,20.98,16.47,14.73,23.01,29.32
+exp2a_newbiz,M_lam25,area_income_tertile,Low,MLP (cls),4494,20.98,17.09,15.74,22.16,27.21
+exp2a_newbiz,M_lam25,area_income_tertile,Mid,Rule Engine (Recall>=70%),4457,20.55,16.54,16.66,16.05,19.95
+exp2a_newbiz,M_lam25,area_income_tertile,Mid,Shallow Tree (depth=2),4457,20.55,9.8,10.14,8.52,17.85
+exp2a_newbiz,M_lam25,area_income_tertile,Mid,Decision Tree (depth=5),4457,20.55,2.54,2.37,3.17,25.66
+exp2a_newbiz,M_lam25,area_income_tertile,Mid,HistGradientBoosting (cls),4457,20.55,10.19,9.52,12.77,25.77
+exp2a_newbiz,M_lam25,area_income_tertile,Mid,MLP (cls),4457,20.55,8.55,8.13,10.15,24.41
+exp2a_newbiz,M_lam25,area_income_tertile,High,Rule Engine (Recall>=70%),4440,18.2,24.01,23.21,27.6,20.92
+exp2a_newbiz,M_lam25,area_income_tertile,High,Shallow Tree (depth=2),4440,18.2,11.73,11.56,12.5,19.39
+exp2a_newbiz,M_lam25,area_income_tertile,High,Decision Tree (depth=5),4440,18.2,2.66,2.64,2.72,18.64
+exp2a_newbiz,M_lam25,area_income_tertile,High,HistGradientBoosting (cls),4440,18.2,12.3,11.12,17.57,26.01
+exp2a_newbiz,M_lam25,area_income_tertile,High,MLP (cls),4440,18.2,9.8,8.89,13.86,25.75
+exp2a_newbiz,M_lam25,type_policy,C,Rule Engine (Recall>=70%),914,19.37,100.0,100.0,100.0,19.37
+exp2a_newbiz,M_lam25,type_policy,C,Shallow Tree (depth=2),914,19.37,100.0,100.0,100.0,19.37
+exp2a_newbiz,M_lam25,type_policy,C,Decision Tree (depth=5),914,19.37,13.13,11.94,18.08,26.67
+exp2a_newbiz,M_lam25,type_policy,C,HistGradientBoosting (cls),914,19.37,51.75,48.17,66.67,24.95
+exp2a_newbiz,M_lam25,type_policy,C,MLP (cls),914,19.37,59.96,55.77,77.4,25.0
+exp2a_newbiz,M_lam25,type_policy,I,Rule Engine (Recall>=70%),12477,19.96,12.6,12.31,13.78,21.82
+exp2a_newbiz,M_lam25,type_policy,I,Shallow Tree (depth=2),12477,19.96,3.94,4.05,3.49,17.72
+exp2a_newbiz,M_lam25,type_policy,I,Decision Tree (depth=5),12477,19.96,5.48,4.85,8.03,29.24
+exp2a_newbiz,M_lam25,type_policy,I,HistGradientBoosting (cls),12477,19.96,10.15,9.1,14.38,28.26
+exp2a_newbiz,M_lam25,type_policy,I,MLP (cls),12477,19.96,8.3,7.6,11.12,26.74

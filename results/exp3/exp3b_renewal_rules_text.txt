@@ -1,0 +1,91 @@
+=== exp3b_renewal | P_comm_80 ===
+Safety Rule (Recall>=70%): totprv_y1>=2000 OR chronic>=3 OR rthlth>=99
+
+-- Shallow Tree (depth=1) --
+|--- totprv_y1 <= 2126.32
+|   |--- class: 0
+|--- totprv_y1 >  2126.32
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- totprv_y1 <= 2126.32
+|   |--- totprv_y1 <= 759.77
+|   |   |--- class: 0
+|   |--- totprv_y1 >  759.77
+|   |   |--- class: 0
+|--- totprv_y1 >  2126.32
+|   |--- chronic_count <= 1.50
+|   |   |--- class: 1
+|   |--- chronic_count >  1.50
+|   |   |--- class: 1
+
+
+=== exp3b_renewal | P_age_80 ===
+Safety Rule (Recall>=70%): totprv_y1>=2000 OR chronic>=99 OR rthlth>=4
+
+-- Shallow Tree (depth=1) --
+|--- totprv_y1 <= 2181.83
+|   |--- class: 0
+|--- totprv_y1 >  2181.83
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- totprv_y1 <= 2181.83
+|   |--- totprv_y1 <= 759.77
+|   |   |--- class: 0
+|   |--- totprv_y1 >  759.77
+|   |   |--- class: 0
+|--- totprv_y1 >  2181.83
+|   |--- totprv_y1 <= 5065.27
+|   |   |--- class: 1
+|   |--- totprv_y1 >  5065.27
+|   |   |--- class: 1
+
+
+=== exp3b_renewal | P_age_95 ===
+Safety Rule (Recall>=70%): totprv_y1>=2000 OR chronic>=99 OR rthlth>=4
+
+-- Shallow Tree (depth=1) --
+|--- totprv_y1 <= 2126.32
+|   |--- class: 0
+|--- totprv_y1 >  2126.32
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- totprv_y1 <= 2126.32
+|   |--- totprv_y1 <= 759.77
+|   |   |--- class: 0
+|   |--- totprv_y1 >  759.77
+|   |   |--- class: 0
+|--- totprv_y1 >  2126.32
+|   |--- totprv_y1 <= 4979.13
+|   |   |--- class: 1
+|   |--- totprv_y1 >  4979.13
+|   |   |--- class: 1
+
+
+=== exp3b_renewal | P_age_80_D0err ===
+Safety Rule (Recall>=70%): totprv_y1>=2000 OR chronic>=99 OR rthlth>=99
+
+-- Shallow Tree (depth=1) --
+|--- totprv_y1 <= 2175.19
+|   |--- class: 0
+|--- totprv_y1 >  2175.19
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- totprv_y1 <= 2175.19
+|   |--- totprv_y1 <= 807.99
+|   |   |--- class: 0
+|   |--- totprv_y1 >  807.99
+|   |   |--- class: 0
+|--- totprv_y1 >  2175.19
+|   |--- totprv_y1 <= 5104.73
+|   |   |--- class: 1
+|   |--- totprv_y1 >  5104.73
+|   |   |--- class: 1
+

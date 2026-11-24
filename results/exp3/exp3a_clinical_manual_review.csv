@@ -1,0 +1,25 @@
+setting,margin_def,policy,n_referred,pct_referred,avoidable_loss,breakeven_c_vs_accept_all_q1,breakeven_c_vs_HistGradientBoosting (cls)_q1
+exp3a_clinical,P_comm_80,Rule Engine (Recall>=70%),3134,50.74,18767999.95,5988.51,4035.2
+exp3a_clinical,P_comm_80,Shallow Tree (depth=2),1795,29.06,14676331.55,8176.23,6327.97
+exp3a_clinical,P_comm_80,Decision Tree (depth=5),1111,17.99,11280366.91,10153.35,-1996.73
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),1223,19.8,11056733.02,9040.66,
+exp3a_clinical,P_comm_80,MLP (cls),2221,35.96,17340305.72,7807.43,6296.17
+exp3a_clinical,P_comm_80,Review All,6176,100.0,25737884.48,4167.4,2964.09
+exp3a_clinical,P_age_80,Rule Engine (Recall>=70%),3428,55.51,19047970.27,5556.58,3393.73
+exp3a_clinical,P_age_80,Shallow Tree (depth=2),1795,29.06,13856517.71,7719.51,4120.94
+exp3a_clinical,P_age_80,Decision Tree (depth=5),1377,22.3,11893899.77,8637.55,369.92
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),1313,21.26,11870224.89,9040.54,
+exp3a_clinical,P_age_80,MLP (cls),1813,29.36,14791742.38,8158.71,5843.03
+exp3a_clinical,P_age_80,Review All,6176,100.0,25188813.68,4078.5,2738.76
+exp3a_clinical,P_age_95,Rule Engine (Recall>=70%),3428,55.51,20050594.51,5849.06,2624.54
+exp3a_clinical,P_age_95,Shallow Tree (depth=2),1795,29.06,14538272.98,8099.32,5062.81
+exp3a_clinical,P_age_95,Decision Tree (depth=5),1171,18.96,10510869.07,8975.98,5833.18
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),2298,37.21,17084866.4,7434.67,
+exp3a_clinical,P_age_95,MLP (cls),2186,35.4,17347657.78,7935.8,-2346.35
+exp3a_clinical,P_age_95,Review All,6176,100.0,26508773.44,4292.22,2430.09
+exp3a_clinical,P_age_80_D0err,Rule Engine (Recall>=70%),3428,55.51,17033387.55,4968.9,2863.84
+exp3a_clinical,P_age_80_D0err,Shallow Tree (depth=2),1795,29.06,12520571.68,6975.25,3225.51
+exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5),1522,24.64,11253535.32,7393.91,1078.44
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),1342,21.73,11059415.83,8241.0,
+exp3a_clinical,P_age_80_D0err,MLP (cls),746,12.08,5598402.58,7504.56,9162.77
+exp3a_clinical,P_age_80_D0err,Review All,6176,100.0,22398228.28,3626.66,2345.64

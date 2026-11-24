@@ -1,0 +1,25 @@
+setting,margin_def,policy,n_referred,pct_referred,avoidable_loss,breakeven_c_vs_accept_all_q1,breakeven_c_vs_HistGradientBoosting (cls)_q1
+exp3b_renewal,P_comm_80,Rule Engine (Recall>=70%),2728,44.17,21826635.31,8000.97,2979.98
+exp3b_renewal,P_comm_80,Shallow Tree (depth=2),978,15.84,12457575.53,12737.81,10519.18
+exp3b_renewal,P_comm_80,Decision Tree (depth=5),2100,34.0,20150990.09,9595.71,3322.85
+exp3b_renewal,P_comm_80,HistGradientBoosting (cls),1529,24.76,18253642.64,11938.29,
+exp3b_renewal,P_comm_80,MLP (cls),1743,28.22,18534325.36,10633.58,1311.6
+exp3b_renewal,P_comm_80,Review All,6176,100.0,25737884.48,4167.4,1610.55
+exp3b_renewal,P_age_80,Rule Engine (Recall>=70%),2714,43.94,20842058.23,7679.46,3274.73
+exp3b_renewal,P_age_80,Shallow Tree (depth=2),1338,21.66,17131768.05,12804.01,-11739.29
+exp3b_renewal,P_age_80,Decision Tree (depth=5),2093,33.89,18714413.15,8941.43,3140.78
+exp3b_renewal,P_age_80,HistGradientBoosting (cls),1391,22.52,16509585.44,11868.86,
+exp3b_renewal,P_age_80,MLP (cls),1376,22.28,16212135.31,11782.08,19830.01
+exp3b_renewal,P_age_80,Review All,6176,100.0,25188813.68,4078.5,1813.84
+exp3b_renewal,P_age_95,Rule Engine (Recall>=70%),2714,43.94,21884932.92,8063.72,2939.57
+exp3b_renewal,P_age_95,Shallow Tree (depth=2),2318,37.53,20915624.8,9023.13,-667.15
+exp3b_renewal,P_age_95,Decision Tree (depth=5),2172,35.17,19864950.27,9145.93,5073.24
+exp3b_renewal,P_age_95,HistGradientBoosting (cls),2372,38.41,20879598.58,8802.53,
+exp3b_renewal,P_age_95,MLP (cls),1624,26.3,17822820.64,10974.64,4086.6
+exp3b_renewal,P_age_95,Review All,6176,100.0,26508773.44,4292.22,1479.8
+exp3b_renewal,P_age_80_D0err,Rule Engine (Recall>=70%),2408,38.99,17902636.68,7434.65,3860.83
+exp3b_renewal,P_age_80_D0err,Shallow Tree (depth=2),1332,21.57,15439429.34,11591.16,10707.15
+exp3b_renewal,P_age_80_D0err,Decision Tree (depth=5),1500,24.29,13855410.26,9236.94,2555.78
+exp3b_renewal,P_age_80_D0err,HistGradientBoosting (cls),1085,17.57,12794762.93,11792.41,
+exp3b_renewal,P_age_80_D0err,MLP (cls),717,11.61,11394538.46,15891.96,3804.96
+exp3b_renewal,P_age_80_D0err,Review All,6176,100.0,22398228.28,3626.66,1886.36

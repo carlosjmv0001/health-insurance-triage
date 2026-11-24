@@ -1,0 +1,91 @@
+=== exp2b_renewal | M_lam00 ===
+Safety Rule (Recall>=70%): svc_prev>=20 OR lr_prev>=0.5 OR age>=999
+
+-- Shallow Tree (depth=1) --
+|--- loss_ratio_prev <= 0.48
+|   |--- class: 0
+|--- loss_ratio_prev >  0.48
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- loss_ratio_prev <= 0.48
+|   |--- loss_ratio_prev <= 0.15
+|   |   |--- class: 0
+|   |--- loss_ratio_prev >  0.15
+|   |   |--- class: 0
+|--- loss_ratio_prev >  0.48
+|   |--- loss_ratio_prev <= 1.11
+|   |   |--- class: 1
+|   |--- loss_ratio_prev >  1.11
+|   |   |--- class: 1
+
+
+=== exp2b_renewal | M_lam15 ===
+Safety Rule (Recall>=70%): svc_prev>=15 OR lr_prev>=0.5 OR age>=999
+
+-- Shallow Tree (depth=1) --
+|--- loss_ratio_prev <= 0.48
+|   |--- class: 0
+|--- loss_ratio_prev >  0.48
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- loss_ratio_prev <= 0.48
+|   |--- loss_ratio_prev <= 0.14
+|   |   |--- class: 0
+|   |--- loss_ratio_prev >  0.14
+|   |   |--- class: 0
+|--- loss_ratio_prev >  0.48
+|   |--- loss_ratio_prev <= 0.89
+|   |   |--- class: 1
+|   |--- loss_ratio_prev >  0.89
+|   |   |--- class: 1
+
+
+=== exp2b_renewal | M_lam25 ===
+Safety Rule (Recall>=70%): svc_prev>=10 OR lr_prev>=0.5 OR age>=999
+
+-- Shallow Tree (depth=1) --
+|--- loss_ratio_prev <= 0.41
+|   |--- class: 0
+|--- loss_ratio_prev >  0.41
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- loss_ratio_prev <= 0.41
+|   |--- loss_ratio_prev <= 0.14
+|   |   |--- class: 0
+|   |--- loss_ratio_prev >  0.14
+|   |   |--- class: 0
+|--- loss_ratio_prev >  0.41
+|   |--- loss_ratio_prev <= 0.75
+|   |   |--- class: 1
+|   |--- loss_ratio_prev >  0.75
+|   |   |--- class: 1
+
+
+=== exp2b_renewal | M_lam35 ===
+Safety Rule (Recall>=70%): svc_prev>=10 OR lr_prev>=0.5 OR age>=999
+
+-- Shallow Tree (depth=1) --
+|--- loss_ratio_prev <= 0.41
+|   |--- class: 0
+|--- loss_ratio_prev >  0.41
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- loss_ratio_prev <= 0.41
+|   |--- loss_ratio_prev <= 0.14
+|   |   |--- class: 0
+|   |--- loss_ratio_prev >  0.14
+|   |   |--- class: 0
+|--- loss_ratio_prev >  0.41
+|   |--- loss_ratio_prev <= 0.75
+|   |   |--- class: 1
+|   |--- loss_ratio_prev >  0.75
+|   |   |--- class: 1
+

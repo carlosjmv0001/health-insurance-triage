@@ -1,0 +1,45 @@
+setting,margin_def,policy_a,policy_b,diff,ci_lo,ci_hi,p_boot
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),Shallow Tree (depth=1),-1.0747,-3.4102,0.8425,0.339
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),Shallow Tree (depth=2),-1.0747,-3.4102,0.8425,0.339
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),Decision Tree (depth=5),-0.4036,-2.6196,1.3927,0.735
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),Logistic Regression,-2.6219,-4.8374,-0.9129,0.0
+exp3a_clinical,P_comm_80,HistGradientBoosting (cls),MLP (cls),-2.445,-4.8764,-0.3672,0.016
+exp3a_clinical,P_comm_80,HistGradientBoosting (margin reg),HistGradientBoosting (cls),0.7805,-0.913,2.9915,0.448
+exp3a_clinical,P_comm_80,HistGradientBoosting (margin-weighted),HistGradientBoosting (cls),1.1478,-0.5834,3.4652,0.236
+exp3a_clinical,P_comm_80,Decision Tree (margin-weighted),Decision Tree (depth=5),0.7338,-0.3711,1.9252,0.21
+exp3a_clinical,P_comm_80,MLP (cls),Shallow Tree (depth=2),1.3703,-0.0493,2.9359,0.065
+exp3a_clinical,P_comm_80,Decision Tree (depth=5),Rule Engine (Recall>=70%),1.3612,-0.3882,2.9071,0.12
+exp3a_clinical,P_comm_80,Shallow Tree (depth=2),Rule Engine (Recall>=70%),2.0323,0.765,3.1914,0.002
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),Shallow Tree (depth=1),1.699,0.2486,3.0673,0.029
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),Shallow Tree (depth=2),1.699,0.2486,3.0673,0.029
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),Decision Tree (depth=5),0.8878,-0.4823,2.2246,0.198
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),Logistic Regression,-1.4524,-3.0447,0.0699,0.06
+exp3a_clinical,P_age_80,HistGradientBoosting (cls),MLP (cls),-0.9398,-2.6928,0.5736,0.211
+exp3a_clinical,P_age_80,HistGradientBoosting (margin reg),HistGradientBoosting (cls),-1.4431,-3.7182,0.5485,0.157
+exp3a_clinical,P_age_80,HistGradientBoosting (margin-weighted),HistGradientBoosting (cls),-0.1453,-2.3382,1.6066,0.933
+exp3a_clinical,P_age_80,Decision Tree (margin-weighted),Decision Tree (depth=5),-0.3668,-1.6863,1.014,0.613
+exp3a_clinical,P_age_80,MLP (cls),Shallow Tree (depth=2),2.6388,1.126,4.26,0.001
+exp3a_clinical,P_age_80,Decision Tree (depth=5),Rule Engine (Recall>=70%),3.2113,1.4902,4.7067,0.002
+exp3a_clinical,P_age_80,Shallow Tree (depth=2),Rule Engine (Recall>=70%),2.4001,1.1013,3.6149,0.0
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),Shallow Tree (depth=1),2.3807,0.558,4.2619,0.01
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),Shallow Tree (depth=2),2.3807,0.558,4.2619,0.01
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),Decision Tree (depth=5),3.5792,1.97,5.4015,0.0
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),Logistic Regression,-0.384,-1.6718,1.0237,0.589
+exp3a_clinical,P_age_95,HistGradientBoosting (cls),MLP (cls),-0.7232,-2.0015,0.4833,0.263
+exp3a_clinical,P_age_95,HistGradientBoosting (margin reg),HistGradientBoosting (cls),-1.0604,-2.4822,0.3791,0.14
+exp3a_clinical,P_age_95,HistGradientBoosting (margin-weighted),HistGradientBoosting (cls),0.3556,-0.7956,1.4777,0.51
+exp3a_clinical,P_age_95,Decision Tree (margin-weighted),Decision Tree (depth=5),3.082,1.3143,5.0857,0.0
+exp3a_clinical,P_age_95,MLP (cls),Shallow Tree (depth=2),3.1039,1.5139,4.6964,0.0
+exp3a_clinical,P_age_95,Decision Tree (depth=5),Rule Engine (Recall>=70%),-0.6027,-2.6245,1.2514,0.555
+exp3a_clinical,P_age_95,Shallow Tree (depth=2),Rule Engine (Recall>=70%),0.5959,-0.6902,1.8029,0.381
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),Shallow Tree (depth=1),2.5082,0.8463,4.1116,0.005
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),Shallow Tree (depth=2),2.5082,0.8463,4.1116,0.005
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),Decision Tree (depth=5),1.3382,-0.1924,3.0331,0.083
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),Logistic Regression,-0.5029,-1.9555,1.0086,0.543
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls),MLP (cls),3.622,1.2841,6.3428,0.0
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (margin reg),HistGradientBoosting (cls),-2.0083,-4.6255,0.1729,0.079
+exp3a_clinical,P_age_80_D0err,HistGradientBoosting (margin-weighted),HistGradientBoosting (cls),-0.8118,-2.6219,0.996,0.356
+exp3a_clinical,P_age_80_D0err,Decision Tree (margin-weighted),Decision Tree (depth=5),0.3204,-1.9279,2.1915,0.717
+exp3a_clinical,P_age_80_D0err,MLP (cls),Shallow Tree (depth=2),-1.1138,-3.6005,0.8983,0.347
+exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5),Rule Engine (Recall>=70%),5.4824,3.7617,7.0121,0.0
+exp3a_clinical,P_age_80_D0err,Shallow Tree (depth=2),Rule Engine (Recall>=70%),4.3124,3.0499,5.4854,0.0

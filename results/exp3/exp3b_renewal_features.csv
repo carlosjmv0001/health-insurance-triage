@@ -1,0 +1,21 @@
+setting,margin_def,feature_set,model,pct_referred,profit_M,gain_M
+exp3b_renewal,P_age_80,F_full,Shallow Tree (depth=2),21.66,16.2419,13.6492
+exp3b_renewal,P_age_80,F_full,Decision Tree (depth=5),33.89,15.3173,12.7245
+exp3b_renewal,P_age_80,F_full,Logistic Regression,16.58,14.3473,11.7546
+exp3b_renewal,P_age_80,F_full,HistGradientBoosting (cls),22.52,15.7633,13.1705
+exp3b_renewal,P_age_80,F_full,MLP (cls),22.28,14.9562,12.3634
+exp3b_renewal,P_age_80,F_clinical_only,Shallow Tree (depth=2),21.66,16.2419,13.6492
+exp3b_renewal,P_age_80,F_clinical_only,Decision Tree (depth=5),31.57,15.2329,12.6401
+exp3b_renewal,P_age_80,F_clinical_only,Logistic Regression,23.4,15.4865,12.8938
+exp3b_renewal,P_age_80,F_clinical_only,HistGradientBoosting (cls),36.45,15.7017,13.1089
+exp3b_renewal,P_age_80,F_clinical_only,MLP (cls),26.12,15.5792,12.9864
+exp3b_renewal,P_age_95,F_full,Shallow Tree (depth=2),37.53,11.0601,15.2293
+exp3b_renewal,P_age_95,F_full,Decision Tree (depth=5),35.17,10.7919,14.9611
+exp3b_renewal,P_age_95,F_full,Logistic Regression,28.79,10.7729,14.9421
+exp3b_renewal,P_age_95,F_full,HistGradientBoosting (cls),38.41,11.1062,15.2754
+exp3b_renewal,P_age_95,F_full,MLP (cls),26.3,10.1837,14.3529
+exp3b_renewal,P_age_95,F_clinical_only,Shallow Tree (depth=2),37.53,11.0601,15.2293
+exp3b_renewal,P_age_95,F_clinical_only,Decision Tree (depth=5),33.14,11.1197,15.2889
+exp3b_renewal,P_age_95,F_clinical_only,Logistic Regression,27.07,11.0631,15.2323
+exp3b_renewal,P_age_95,F_clinical_only,HistGradientBoosting (cls),36.14,11.2447,15.4139
+exp3b_renewal,P_age_95,F_clinical_only,MLP (cls),28.84,10.4942,14.6634

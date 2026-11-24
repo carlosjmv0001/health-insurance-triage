@@ -1,0 +1,235 @@
+Loaded pooled MEPS (Panels 22,23,25,26,27,28): N=21,490 continuous-private adults (18-64)
+          n  y1_yr  y2_yr  mean_chronic  mean_totprv_y2_2024usd  med_totprv_y2_2024usd  mean_totslf_y2_2024usd
+panel                                                                                                         
+22     5305   2017   2018          1.05                 5346.99                 814.63                 1030.46
+23     5150   2018   2019          1.02                 5642.10                 847.93                 1065.28
+25     2349   2020   2021          1.08                 5392.14                 886.47                  988.48
+26     2510   2021   2022          1.07                 5339.59                1013.09                 1233.56
+27     3049   2022   2023          1.07                 6039.21                1060.58                 1164.59
+28     3127   2023   2024          1.11                 6977.76                1134.00                 1238.87
+
+================================================================================
+RUNNING MEPS SETTING: exp3a_clinical (tr=11,485, va=3,829, te=6,176)
+================================================================================
+
+--- exp3a_clinical | P_comm_80 | Test Accept-All=+1.892M | Neg%=18.1% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00  1.8917              0.0000        0.00    NaN    NaN
+                                   Oracle         18.12  100.00     100.00 27.6296             25.7379      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         50.74   68.45      24.44  8.4307              6.5390       25.41    NaN    NaN
+                   Shallow Tree (depth=1)         29.06   50.40      31.42 10.4630              8.5713       33.30 0.6303 0.1418
+                   Shallow Tree (depth=2)         29.06   50.40      31.42 10.4630              8.5713       33.30 0.6662 0.1399
+                  Decision Tree (depth=5)         17.99   36.19      36.45  9.7919              7.9002       30.69 0.6773 0.1394
+          Decision Tree (margin-weighted)         31.09   52.19      30.42 10.5257              8.6340       33.55 0.6524    NaN
+               Decision Tree (margin reg)         36.45   58.80      29.23 10.3194              8.4277       32.74 0.6761    NaN
+                      Logistic Regression         21.02   46.02      39.68 12.0102             10.1185       39.31 0.7283 0.1326
+               HistGradientBoosting (cls)         19.80   42.18      38.59  9.3883              7.4966       29.13 0.7156 0.1349
+   HistGradientBoosting (margin-weighted)         33.34   56.48      30.69 10.5361              8.6444       33.59 0.7065    NaN
+        HistGradientBoosting (margin reg)         28.90   49.33      30.92 10.1688              8.2771       32.16 0.6841    NaN
+                                MLP (cls)         35.96   63.36      31.92 11.8333              9.9416       38.63 0.7158 0.1337
+                         MLP (margin reg)         30.07   47.54      28.65  8.4106              6.5189       25.33 0.6455    NaN
+       Decision Tree (margin reg) (cut=0)         27.59   46.83      30.75  9.2445              7.3528       28.57    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         22.07   40.13      32.94  8.8851              6.9934       27.17    NaN    NaN
+                 MLP (margin reg) (cut=0)         31.80   49.60      28.26  8.2058              6.3140       24.53    NaN    NaN
+
+--- exp3a_clinical | P_age_80 | Test Accept-All=+2.593M | Neg%=18.0% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00  2.5928              0.0000        0.00    NaN    NaN
+                                   Oracle         18.02  100.00     100.00 27.7816             25.1888      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         55.51   70.26      22.81  6.0756              3.4829       13.83    NaN    NaN
+                   Shallow Tree (depth=1)         29.06   44.74      27.74  8.4757              5.8830       23.36 0.5956 0.1447
+                   Shallow Tree (depth=2)         29.06   44.74      27.74  8.4757              5.8830       23.36 0.6428 0.1425
+                  Decision Tree (depth=5)         22.30   38.01      30.72  9.2870              6.6942       26.58 0.6470 0.1419
+          Decision Tree (margin-weighted)         19.04   34.59      32.74  8.9201              6.3273       25.12 0.6217    NaN
+               Decision Tree (margin reg)          8.84   17.25      35.16  6.5989              4.0062       15.90 0.6142    NaN
+                      Logistic Regression         25.91   49.87      34.69 11.6272              9.0344       35.87 0.7132 0.1350
+               HistGradientBoosting (cls)         21.26   42.68      36.18 10.1748              7.5820       30.10 0.6964 0.1366
+   HistGradientBoosting (margin-weighted)         20.97   41.42      35.60 10.0295              7.4367       29.52 0.6820    NaN
+        HistGradientBoosting (margin reg)         26.93   46.00      30.79  8.7316              6.1389       24.37 0.6605    NaN
+                                MLP (cls)         29.36   52.47      32.21 11.1145              8.5218       33.83 0.6999 0.1359
+                         MLP (margin reg)         21.23   35.67      30.28  7.7134              5.1206       20.33 0.6282    NaN
+       Decision Tree (margin reg) (cut=0)         26.75   38.90      26.21  7.1294              4.5366       18.01    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         21.29   38.90      32.93  8.7753              6.1825       24.54    NaN    NaN
+                 MLP (margin reg) (cut=0)         30.08   45.37      27.18  8.4486              5.8558       23.25    NaN    NaN
+
+--- exp3a_clinical | P_age_95 | Test Accept-All=-4.169M | Neg%=20.6% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00 -4.1692              0.0000        0.00    NaN    NaN
+                                   Oracle         20.60  100.00     100.00 22.3396             26.5088      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         55.51   69.97      25.96  3.4755              7.6447       28.84    NaN    NaN
+                   Shallow Tree (depth=1)         29.06   44.26      31.36  4.0714              8.2406       31.09 0.5957 0.1597
+                   Shallow Tree (depth=2)         29.06   44.26      31.36  4.0714              8.2406       31.09 0.6420 0.1573
+                  Decision Tree (depth=5)         18.96   32.23      35.01  2.8728              7.0420       26.56 0.6475 0.1561
+          Decision Tree (margin-weighted)         38.57   57.63      30.77  5.9549             10.1241       38.19 0.6332    NaN
+               Decision Tree (margin reg)         24.29   37.50      31.80  2.2455              6.4147       24.20 0.6296    NaN
+                      Logistic Regression         30.21   53.69      36.60  6.8360             11.0052       41.52 0.7112 0.1488
+               HistGradientBoosting (cls)         37.21   59.20      32.77  6.4521             10.6213       40.07 0.6905 0.1511
+   HistGradientBoosting (margin-weighted)         28.89   48.98      34.92  6.8077             10.9769       41.41 0.6818    NaN
+        HistGradientBoosting (margin reg)         32.45   50.79      32.24  5.3917              9.5609       36.07 0.6482    NaN
+                                MLP (cls)         35.40   58.57      34.08  7.1753             11.3445       42.80 0.6981 0.1498
+                         MLP (margin reg)         31.80   47.17      30.55  3.4757              7.6449       28.84 0.6278    NaN
+       Decision Tree (margin reg) (cut=0)         28.59   44.03      31.71  4.4050              8.5742       32.34    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         25.97   43.16      34.23  4.8577              9.0269       34.05    NaN    NaN
+                 MLP (margin reg) (cut=0)         37.00   53.46      29.76  4.5434              8.7126       32.87    NaN    NaN
+
+--- exp3a_clinical | P_age_80_D0err | Test Accept-All=+10.018M | Neg%=14.5% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00 10.0176              0.0000        0.00    NaN    NaN
+                                   Oracle         14.52  100.00     100.00 32.4158             22.3982      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         55.51   72.02      18.84  8.5180             -1.4996       -6.70    NaN    NaN
+                   Shallow Tree (depth=1)         29.06   46.93      23.45 12.8303              2.8128       12.56 0.6045 0.1213
+                   Shallow Tree (depth=2)         29.06   46.93      23.45 12.8303              2.8128       12.56 0.6541 0.1189
+                  Decision Tree (depth=5)         24.64   44.15      26.02 14.0003              3.9828       17.78 0.6441 0.1194
+          Decision Tree (margin-weighted)         20.40   38.46      27.38 14.3208              4.3032       19.21 0.6270    NaN
+               Decision Tree (margin reg)         27.12   41.81      22.39 12.8924              2.8748       12.84 0.5902    NaN
+                      Logistic Regression         20.64   43.37      30.51 15.8414              5.8238       26.00 0.7100 0.1146
+               HistGradientBoosting (cls)         21.73   43.59      29.14 15.3385              5.3209       23.76 0.6879 0.1166
+   HistGradientBoosting (margin-weighted)         27.25   46.60      24.84 14.5267              4.5092       20.13 0.6587    NaN
+        HistGradientBoosting (margin reg)         11.12   23.52      30.71 13.3302              3.3127       14.79 0.6452    NaN
+                                MLP (cls)         12.08   21.07      25.34 11.7165              1.6989        7.59 0.6213 0.1217
+                         MLP (margin reg)         18.17   29.99      23.98 12.2426              2.2251        9.93 0.5990    NaN
+       Decision Tree (margin reg) (cut=0)         23.51   35.45      21.90 12.2701              2.2525       10.06    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         12.84   26.42      29.89 13.5963              3.5788       15.98    NaN    NaN
+                 MLP (margin reg) (cut=0)         28.24   41.58      21.39 11.9272              1.9097        8.53    NaN    NaN
+
+================================================================================
+RUNNING MEPS SETTING: exp3b_renewal (tr=11,485, va=3,829, te=6,176)
+================================================================================
+
+--- exp3b_renewal | P_comm_80 | Test Accept-All=+1.892M | Neg%=18.1% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00  1.8917              0.0000        0.00    NaN    NaN
+                                   Oracle         18.12  100.00     100.00 27.6296             25.7379      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         44.17   79.89      32.77 15.1046             13.2129       51.34    NaN    NaN
+                   Shallow Tree (depth=1)         37.53   74.44      35.94 15.6521             13.7604       53.46 0.7254 0.1299
+                   Shallow Tree (depth=2)         15.84   40.84      46.73 12.1556             10.2639       39.88 0.7678 0.1261
+                  Decision Tree (depth=5)         34.00   71.05      37.86 16.1314             14.2397       55.33 0.7768 0.1221
+          Decision Tree (margin-weighted)         28.68   64.88      40.99 15.8243             13.9326       54.13 0.7816    NaN
+               Decision Tree (margin reg)         14.96   42.72      51.73 15.0272             13.1355       51.04 0.7811    NaN
+                      Logistic Regression         23.62   57.19      43.87 15.9966             14.1049       54.80 0.7827 0.1232
+               HistGradientBoosting (cls)         24.76   60.77      44.47 16.5373             14.6456       56.90 0.8056 0.1164
+   HistGradientBoosting (margin-weighted)         29.18   65.59      40.73 16.7662             14.8745       57.79 0.8008    NaN
+        HistGradientBoosting (margin reg)         31.72   65.77      37.57 15.1287             13.2370       51.43 0.7799    NaN
+                                MLP (cls)         28.22   62.02      39.82 15.6978             13.8061       53.64 0.7792 0.1218
+                         MLP (margin reg)         23.67   50.85      38.92 14.7874             12.8957       50.10 0.7356    NaN
+       Decision Tree (margin reg) (cut=0)         24.30   59.61      44.44 16.4795             14.5878       56.68    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         23.22   54.60      42.61 15.2666             13.3749       51.97    NaN    NaN
+                 MLP (margin reg) (cut=0)         34.72   63.63      33.21 14.4003             12.5086       48.60    NaN    NaN
+
+--- exp3b_renewal | P_age_80 | Test Accept-All=+2.593M | Neg%=18.0% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00  2.5928              0.0000        0.00    NaN    NaN
+                                   Oracle         18.02  100.00     100.00 27.7816             25.1888      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         43.94   77.45      31.76 13.9881             11.3953       45.24    NaN    NaN
+                   Shallow Tree (depth=1)         36.82   72.24      35.36 15.0580             12.4653       49.49 0.7160 0.1312
+                   Shallow Tree (depth=2)         21.66   54.99      45.74 16.2419             13.6492       54.19 0.7663 0.1249
+                  Decision Tree (depth=5)         33.89   69.36      36.88 15.3173             12.7245       50.52 0.7781 0.1224
+          Decision Tree (margin-weighted)         26.68   60.11      40.59 15.8782             13.2854       52.74 0.7664    NaN
+               Decision Tree (margin reg)         35.35   69.81      35.59 15.9812             13.3885       53.15 0.7508    NaN
+                      Logistic Regression         16.58   44.12      47.95 14.3473             11.7546       46.67 0.7757 0.1254
+               HistGradientBoosting (cls)         22.52   56.33      45.08 15.7633             13.1705       52.29 0.8023 0.1189
+   HistGradientBoosting (margin-weighted)         35.18   70.71      36.22 15.5338             12.9410       51.38 0.7886    NaN
+        HistGradientBoosting (margin reg)         29.32   62.62      38.49 15.7803             13.1875       52.35 0.7636    NaN
+                                MLP (cls)         22.28   53.19      43.02 14.9562             12.3634       49.08 0.7675 0.1250
+                         MLP (margin reg)         19.28   44.38      41.48 14.5817             11.9889       47.60 0.7240    NaN
+       Decision Tree (margin reg) (cut=0)         19.67   50.49      46.26 15.6001             13.0074       51.64    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         23.98   56.33      42.34 15.1204             12.5277       49.74    NaN    NaN
+                 MLP (margin reg) (cut=0)         34.99   63.16      32.53 14.3094             11.7167       46.52    NaN    NaN
+
+--- exp3b_renewal | P_age_95 | Test Accept-All=-4.169M | Neg%=20.6% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00 -4.1692              0.0000        0.00    NaN    NaN
+                                   Oracle         20.60  100.00     100.00 22.3396             26.5088      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         43.94   76.57      35.89 10.3618             14.5310       54.82    NaN    NaN
+                   Shallow Tree (depth=1)         37.53   72.01      39.52 11.0601             15.2293       57.45 0.7171 0.1431
+                   Shallow Tree (depth=2)         37.53   72.01      39.52 11.0601             15.2293       57.45 0.7639 0.1365
+                  Decision Tree (depth=5)         35.17   68.47      40.10 10.7919             14.9611       56.44 0.7722 0.1357
+          Decision Tree (margin-weighted)         37.01   71.62      39.85 10.8650             15.0342       56.71 0.7675    NaN
+               Decision Tree (margin reg)         35.51   69.81      40.49 11.1170             15.2862       57.66 0.7452    NaN
+                      Logistic Regression         28.79   59.51      42.58 10.7729             14.9421       56.37 0.7726 0.1374
+               HistGradientBoosting (cls)         38.41   72.80      39.04 11.1062             15.2754       57.62 0.7871 0.1319
+   HistGradientBoosting (margin-weighted)         30.65   64.23      43.16 10.8023             14.9715       56.48 0.7813    NaN
+        HistGradientBoosting (margin reg)         31.06   60.77      40.30 10.4931             14.6623       55.31 0.7461    NaN
+                                MLP (cls)         26.30   56.45      44.21 10.1837             14.3529       54.14 0.7663 0.1365
+                         MLP (margin reg)         16.37   38.52      48.47  8.7990             12.9682       48.92 0.7182    NaN
+       Decision Tree (margin reg) (cut=0)         26.85   59.36      45.54 11.3406             15.5098       58.51    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         28.48   57.94      41.90 10.4491             14.6183       55.15    NaN    NaN
+                 MLP (margin reg) (cut=0)         38.41   64.39      34.53  9.4993             13.6685       51.56    NaN    NaN
+
+--- exp3b_renewal | P_age_80_D0err | Test Accept-All=+10.018M | Neg%=14.5% ---
+                                   policy  pct_referred  recall  precision  profit  gain_vs_accept_all  pct_oracle  auroc  brier
+                               Accept All          0.00    0.00       0.00 10.0176              0.0000        0.00    NaN    NaN
+                                   Oracle         14.52  100.00     100.00 32.4158             22.3982      100.00    NaN    NaN
+                Rule Engine (Recall>=70%)         38.99   74.25      27.66 17.7520              7.7344       34.53    NaN    NaN
+                   Shallow Tree (depth=1)         36.90   72.69      28.61 18.0705              8.0529       35.95 0.7093 0.1129
+                   Shallow Tree (depth=2)         21.57   57.64      38.81 20.7416             10.7241       47.88 0.7612 0.1074
+                  Decision Tree (depth=5)         24.29   57.86      34.60 18.4714              8.4538       37.74 0.7623 0.1052
+          Decision Tree (margin-weighted)         21.47   52.73      35.67 19.8744              9.8568       44.01 0.7510    NaN
+               Decision Tree (margin reg)         28.03   65.11      33.74 20.4607             10.4431       46.62 0.7284    NaN
+                      Logistic Regression         11.95   38.24      46.48 18.9676              8.9500       39.96 0.7709 0.1063
+               HistGradientBoosting (cls)         17.57   49.16      40.65 19.3279              9.3103       41.57 0.7858 0.1036
+   HistGradientBoosting (margin-weighted)         26.39   62.10      34.17 20.3033             10.2857       45.92 0.7752    NaN
+        HistGradientBoosting (margin reg)         19.96   51.17      37.23 19.1128              9.0952       40.61 0.7476    NaN
+                                MLP (cls)         11.61   36.79      46.03 19.1495              9.1319       40.77 0.7665 0.1058
+                         MLP (margin reg)         13.71   37.35      39.55 18.5198              8.5022       37.96 0.7114    NaN
+       Decision Tree (margin reg) (cut=0)         19.85   46.60      34.09 18.6548              8.6372       38.56    NaN    NaN
+HistGradientBoosting (margin reg) (cut=0)         16.92   45.60      39.14 19.0304              9.0128       40.24    NaN    NaN
+                 MLP (margin reg) (cut=0)         22.33   49.50      32.20 17.9726              7.9551       35.52    NaN    NaN
+
+--- Running 20 random 60/20/20 splits on MEPS (exp3a_clinical) ---
+
+MEPS exp3a_clinical 20 splits summary (gain in M 2024-USD per 10k lives):
+margin_def               P_age_80  P_age_95
+accept_all_M       mean    15.087     3.725
+                   std      2.942     2.768
+oracle_gain_M      mean    34.084    35.962
+                   std      2.093     2.101
+rule_engine_gain_M mean    -0.890     5.797
+                   std      2.420     2.493
+shallow1_gain_M    mean     4.608     8.886
+                   std      2.552     2.195
+shallow2_gain_M    mean     5.184     8.490
+                   std      2.019     2.502
+dt5_gain_M         mean     7.371    10.161
+                   std      1.969     2.079
+dt5_mw_gain_M      mean     7.119    10.302
+                   std      2.385     2.360
+logreg_gain_M      mean     9.333    13.021
+                   std      2.276     2.393
+hgb_cls_gain_M     mean     9.435    12.819
+                   std      1.871     2.084
+hgb_reg_gain_M     mean     8.325    11.569
+                   std      1.776     2.073
+mlp_cls_gain_M     mean     7.407    11.666
+                   std      3.453     2.467
+mlp_reg_gain_M     mean     7.423     9.565
+                   std      2.089     2.144
+
+--- Running 20 random 60/20/20 splits on MEPS (exp3b_renewal) ---
+
+MEPS exp3b_renewal 20 splits summary (gain in M 2024-USD per 10k lives):
+margin_def               P_age_80  P_age_95
+accept_all_M       mean    15.087     3.725
+                   std      2.942     2.768
+oracle_gain_M      mean    34.084    35.962
+                   std      2.093     2.101
+rule_engine_gain_M mean    11.641    15.931
+                   std      2.870     2.580
+shallow1_gain_M    mean    13.061    17.169
+                   std      2.095     2.109
+shallow2_gain_M    mean    14.286    17.139
+                   std      2.370     2.227
+dt5_gain_M         mean    14.757    17.803
+                   std      2.262     2.193
+dt5_mw_gain_M      mean    14.956    17.272
+                   std      2.063     2.285
+logreg_gain_M      mean    13.725    16.665
+                   std      2.232     1.935
+hgb_cls_gain_M     mean    15.597    18.880
+                   std      2.338     2.272
+hgb_reg_gain_M     mean    14.772    17.938
+                   std      2.020     1.908
+mlp_cls_gain_M     mean    14.362    17.347
+                   std      2.373     1.980
+mlp_reg_gain_M     mean    12.250    14.703
+                   std      2.333     2.119

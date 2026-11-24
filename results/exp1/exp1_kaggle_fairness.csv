@@ -1,0 +1,91 @@
+margin_def,group_col,group_val,policy,n,pct_neg_margin,pct_referred,fpr,tpr,precision
+m_D0,sex,Female,Rule Engine (Recall>=70%),12350,28.91,56.07,49.61,71.96,37.1
+m_D0,sex,Female,Shallow Tree (depth=2),12350,28.91,16.11,10.38,30.2,54.2
+m_D0,sex,Female,Decision Tree (depth=5),12350,28.91,20.51,13.53,37.68,53.1
+m_D0,sex,Female,HistGradientBoosting (cls),12350,28.91,21.13,13.96,38.74,53.01
+m_D0,sex,Female,MLP (cls),12350,28.91,24.38,17.06,42.38,50.25
+m_D0,sex,Male,Rule Engine (Recall>=70%),12166,28.91,55.58,48.85,72.14,37.52
+m_D0,sex,Male,Shallow Tree (depth=2),12166,28.91,15.85,10.12,29.94,54.62
+m_D0,sex,Male,Decision Tree (depth=5),12166,28.91,20.24,13.39,37.11,52.98
+m_D0,sex,Male,HistGradientBoosting (cls),12166,28.91,20.93,13.94,38.1,52.63
+m_D0,sex,Male,MLP (cls),12166,28.91,23.31,16.07,41.11,50.99
+m_D0,sex,Other,Rule Engine (Recall>=70%),484,31.61,53.72,45.62,71.24,41.92
+m_D0,sex,Other,Shallow Tree (depth=2),484,31.61,15.08,5.44,35.95,75.34
+m_D0,sex,Other,Decision Tree (depth=5),484,31.61,19.42,8.16,43.79,71.28
+m_D0,sex,Other,HistGradientBoosting (cls),484,31.61,19.42,9.06,41.83,68.09
+m_D0,sex,Other,MLP (cls),484,31.61,24.17,13.29,47.71,62.39
+m_D0,income_tertile,Low,Rule Engine (Recall>=70%),8348,29.22,55.46,48.55,72.2,38.03
+m_D0,income_tertile,Low,Shallow Tree (depth=2),8348,29.22,15.44,9.61,29.56,55.93
+m_D0,income_tertile,Low,Decision Tree (depth=5),8348,29.22,20.09,13.01,37.23,54.14
+m_D0,income_tertile,Low,HistGradientBoosting (cls),8348,29.22,20.96,13.72,38.5,53.66
+m_D0,income_tertile,Low,MLP (cls),8348,29.22,23.71,16.38,41.45,51.09
+m_D0,income_tertile,Mid,Rule Engine (Recall>=70%),8332,28.94,56.3,49.86,72.13,37.07
+m_D0,income_tertile,Mid,Shallow Tree (depth=2),8332,28.94,15.85,9.83,30.65,55.94
+m_D0,income_tertile,Mid,Decision Tree (depth=5),8332,28.94,20.8,13.46,38.82,54.01
+m_D0,income_tertile,Mid,HistGradientBoosting (cls),8332,28.94,20.91,13.49,39.11,54.13
+m_D0,income_tertile,Mid,MLP (cls),8332,28.94,23.51,15.81,42.43,52.22
+m_D0,income_tertile,High,Rule Engine (Recall>=70%),8320,28.73,55.6,49.09,71.76,37.07
+m_D0,income_tertile,High,Shallow Tree (depth=2),8320,28.73,16.59,11.03,30.38,52.61
+m_D0,income_tertile,High,Decision Tree (depth=5),8320,28.73,20.19,13.61,36.53,51.96
+m_D0,income_tertile,High,HistGradientBoosting (cls),8320,28.73,21.12,14.37,37.87,51.51
+m_D0,income_tertile,High,MLP (cls),8320,28.73,24.35,17.34,41.76,49.26
+m_D0,region,Central,Rule Engine (Recall>=70%),2963,28.35,55.01,48.05,72.62,37.42
+m_D0,region,Central,Shallow Tree (depth=2),2963,28.35,16.03,10.08,31.07,54.95
+m_D0,region,Central,Decision Tree (depth=5),2963,28.35,20.18,12.95,38.45,54.01
+m_D0,region,Central,HistGradientBoosting (cls),2963,28.35,20.92,13.47,39.76,53.87
+m_D0,region,Central,MLP (cls),2963,28.35,23.73,16.2,42.74,51.07
+m_D0,region,East,Rule Engine (Recall>=70%),4981,28.43,56.31,49.93,72.39,36.54
+m_D0,region,East,Shallow Tree (depth=2),4981,28.43,15.92,10.35,29.94,53.47
+m_D0,region,East,Decision Tree (depth=5),4981,28.43,20.4,13.86,36.86,51.38
+m_D0,region,East,HistGradientBoosting (cls),4981,28.43,20.88,14.28,37.5,51.06
+m_D0,region,East,MLP (cls),4981,28.43,24.01,17.0,41.67,49.33
+m_D0,region,North,Rule Engine (Recall>=70%),5496,29.6,55.42,48.9,70.93,37.89
+m_D0,region,North,Shallow Tree (depth=2),5496,29.6,16.7,10.6,31.22,55.34
+m_D0,region,North,Decision Tree (depth=5),5496,29.6,21.05,13.85,38.17,53.67
+m_D0,region,North,HistGradientBoosting (cls),5496,29.6,21.52,14.37,38.54,53.0
+m_D0,region,North,MLP (cls),5496,29.6,23.6,16.23,41.12,51.58
+m_D0,region,South,Rule Engine (Recall>=70%),7139,29.43,56.09,49.13,72.77,38.19
+m_D0,region,South,Shallow Tree (depth=2),7139,29.43,15.74,9.67,30.32,56.67
+m_D0,region,South,Decision Tree (depth=5),7139,29.43,19.99,12.66,37.55,55.29
+m_D0,region,South,HistGradientBoosting (cls),7139,29.43,20.79,13.38,38.55,54.58
+m_D0,region,South,MLP (cls),7139,29.43,23.66,15.98,42.08,52.34
+m_D0,region,West,Rule Engine (Recall>=70%),4421,28.41,55.69,49.45,71.42,36.43
+m_D0,region,West,Shallow Tree (depth=2),4421,28.41,15.38,10.24,28.34,52.35
+m_D0,region,West,Decision Tree (depth=5),4421,28.41,20.18,13.59,36.78,51.79
+m_D0,region,West,HistGradientBoosting (cls),4421,28.41,20.86,13.81,38.61,52.6
+m_D0,region,West,MLP (cls),4421,28.41,24.41,17.35,42.2,49.12
+m_D0,urban_rural,Rural,Rule Engine (Recall>=70%),3661,29.15,55.59,49.27,70.95,37.2
+m_D0,urban_rural,Rural,Shallow Tree (depth=2),3661,29.15,16.03,10.64,29.15,52.98
+m_D0,urban_rural,Rural,Decision Tree (depth=5),3661,29.15,20.65,13.76,37.39,52.78
+m_D0,urban_rural,Rural,HistGradientBoosting (cls),3661,29.15,21.47,14.61,38.14,51.78
+m_D0,urban_rural,Rural,MLP (cls),3661,29.15,24.23,17.23,41.24,49.61
+m_D0,urban_rural,Suburban,Rule Engine (Recall>=70%),6246,29.2,55.7,49.57,70.56,36.99
+m_D0,urban_rural,Suburban,Shallow Tree (depth=2),6246,29.2,16.22,10.49,30.1,54.2
+m_D0,urban_rural,Suburban,Decision Tree (depth=5),6246,29.2,20.64,13.66,37.55,53.14
+m_D0,urban_rural,Suburban,HistGradientBoosting (cls),6246,29.2,21.37,14.45,38.16,52.13
+m_D0,urban_rural,Suburban,MLP (cls),6246,29.2,23.55,16.71,40.13,49.76
+m_D0,urban_rural,Urban,Rule Engine (Recall>=70%),15093,28.81,55.87,48.98,72.91,37.6
+m_D0,urban_rural,Urban,Shallow Tree (depth=2),15093,28.81,15.84,9.9,30.49,55.48
+m_D0,urban_rural,Urban,Decision Tree (depth=5),15093,28.81,20.17,13.14,37.55,53.63
+m_D0,urban_rural,Urban,HistGradientBoosting (cls),15093,28.81,20.72,13.44,38.72,53.84
+m_D0,urban_rural,Urban,MLP (cls),15093,28.81,23.89,16.25,42.77,51.58
+m_D0,age_group,<30,Rule Engine (Recall>=70%),3192,22.21,24.31,20.94,36.11,32.99
+m_D0,age_group,<30,Shallow Tree (depth=2),3192,22.21,11.18,6.97,25.95,51.54
+m_D0,age_group,<30,Decision Tree (depth=5),3192,22.21,15.41,10.47,32.72,47.15
+m_D0,age_group,<30,HistGradientBoosting (cls),3192,22.21,12.31,8.1,27.08,48.85
+m_D0,age_group,<30,MLP (cls),3192,22.21,12.88,8.1,29.62,51.09
+m_D0,age_group,30-44,Rule Engine (Recall>=70%),7326,25.05,29.25,24.64,43.05,36.86
+m_D0,age_group,30-44,Shallow Tree (depth=2),7326,25.05,11.52,6.87,25.45,55.33
+m_D0,age_group,30-44,Decision Tree (depth=5),7326,25.05,15.83,9.98,33.35,52.76
+m_D0,age_group,30-44,HistGradientBoosting (cls),7326,25.05,14.58,8.94,31.44,54.03
+m_D0,age_group,30-44,MLP (cls),7326,25.05,16.26,10.6,33.19,51.13
+m_D0,age_group,45-59,Rule Engine (Recall>=70%),8717,30.56,61.94,53.49,81.12,40.03
+m_D0,age_group,45-59,Shallow Tree (depth=2),8717,30.56,17.05,11.15,30.44,54.58
+m_D0,age_group,45-59,Decision Tree (depth=5),8717,30.56,21.75,14.67,37.84,53.16
+m_D0,age_group,45-59,HistGradientBoosting (cls),8717,30.56,23.17,15.83,39.86,52.57
+m_D0,age_group,45-59,MLP (cls),8717,30.56,25.88,18.55,42.53,50.22
+m_D0,age_group,60+,Rule Engine (Recall>=70%),5765,35.25,97.64,97.0,98.82,35.67
+m_D0,age_group,60+,Shallow Tree (depth=2),5765,35.25,22.6,15.51,35.63,55.56
+m_D0,age_group,60+,Decision Tree (depth=5),5765,35.25,26.75,18.14,42.57,56.1
+m_D0,age_group,60+,HistGradientBoosting (cls),5765,35.25,30.67,21.75,47.05,54.07
+m_D0,age_group,60+,MLP (cls),5765,35.25,36.53,27.48,53.15,51.28

@@ -1,0 +1,21 @@
+setting,margin_def,feature_set,model,pct_referred,profit_M,gain_M
+exp2a_newbiz,M_lam15,F_full,Shallow Tree (depth=2),5.89,2.17,-0.1652
+exp2a_newbiz,M_lam15,F_full,Decision Tree (depth=5),3.11,2.2727,-0.0625
+exp2a_newbiz,M_lam15,F_full,Logistic Regression,2.88,2.3075,-0.0277
+exp2a_newbiz,M_lam15,F_full,HistGradientBoosting (cls),3.41,2.3259,-0.0093
+exp2a_newbiz,M_lam15,F_full,MLP (cls),0.94,2.3084,-0.0268
+exp2a_newbiz,M_lam15,F_no_sensitive,Shallow Tree (depth=2),0.0,2.3351,0.0
+exp2a_newbiz,M_lam15,F_no_sensitive,Decision Tree (depth=5),0.73,2.3215,-0.0137
+exp2a_newbiz,M_lam15,F_no_sensitive,Logistic Regression,0.68,2.3194,-0.0157
+exp2a_newbiz,M_lam15,F_no_sensitive,HistGradientBoosting (cls),1.81,2.3034,-0.0317
+exp2a_newbiz,M_lam15,F_no_sensitive,MLP (cls),0.0,2.3351,0.0
+exp2a_newbiz,M_lam25,F_full,Shallow Tree (depth=2),10.49,1.4377,-0.2097
+exp2a_newbiz,M_lam25,F_full,Decision Tree (depth=5),6.0,1.6031,-0.0444
+exp2a_newbiz,M_lam25,F_full,Logistic Regression,5.91,1.6222,-0.0253
+exp2a_newbiz,M_lam25,F_full,HistGradientBoosting (cls),12.99,1.5569,-0.0906
+exp2a_newbiz,M_lam25,F_full,MLP (cls),11.83,1.562,-0.0855
+exp2a_newbiz,M_lam25,F_no_sensitive,Shallow Tree (depth=2),10.49,1.4377,-0.2097
+exp2a_newbiz,M_lam25,F_no_sensitive,Decision Tree (depth=5),0.56,1.6422,-0.0052
+exp2a_newbiz,M_lam25,F_no_sensitive,Logistic Regression,3.97,1.6022,-0.0452
+exp2a_newbiz,M_lam25,F_no_sensitive,HistGradientBoosting (cls),4.32,1.588,-0.0594
+exp2a_newbiz,M_lam25,F_no_sensitive,MLP (cls),4.97,1.5324,-0.115

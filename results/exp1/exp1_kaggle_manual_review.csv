@@ -1,0 +1,13 @@
+margin_def,policy,n_referred,pct_referred,avoidable_loss,breakeven_c_vs_accept_all_q1,breakeven_c_vs_Decision Tree (depth=5)_q1
+m_D0,Rule Engine (Recall>=70%),13947,55.79,10982838.11,787.47,430.63
+m_D0,Shallow Tree (depth=2),3990,15.96,5948271.86,1490.79,1109.55
+m_D0,Decision Tree (depth=5),5090,20.36,7168772.06,1408.4,
+m_D0,HistGradientBoosting (cls),5249,21.0,7241785.93,1379.65,459.21
+m_D0,MLP (cls),5964,23.86,7737860.11,1297.43,651.13
+m_D0,Review All,25000,100.0,13690067.91,547.6,327.54
+m_D2,Rule Engine (Recall>=70%),13947,55.79,10982838.11,787.47,-1889.35
+m_D2,Shallow Tree (depth=2),13414,53.66,11876109.44,885.35,217.15
+m_D2,Decision Tree (depth=5),13468,53.87,11887835.63,882.67,
+m_D2,HistGradientBoosting (cls),13553,54.21,11953285.63,881.97,770.0
+m_D2,MLP (cls),13662,54.65,11948281.43,874.56,311.58
+m_D2,Review All,25000,100.0,13690067.91,547.6,156.28

@@ -1,0 +1,91 @@
+=== exp3a_clinical | P_comm_80 ===
+Safety Rule (Recall>=70%): chronic>=2 OR rthlth>=4 OR age>=50
+
+-- Shallow Tree (depth=1) --
+|--- chronic_count <= 1.50
+|   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- chronic_count <= 1.50
+|   |--- chronic_count <= 0.50
+|   |   |--- class: 0
+|   |--- chronic_count >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- chronic_count <= 2.50
+|   |   |--- class: 1
+|   |--- chronic_count >  2.50
+|   |   |--- class: 1
+
+
+=== exp3a_clinical | P_age_80 ===
+Safety Rule (Recall>=70%): chronic>=1 OR rthlth>=99 OR age>=99
+
+-- Shallow Tree (depth=1) --
+|--- chronic_count <= 1.50
+|   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- chronic_count <= 1.50
+|   |--- sex_Male <= 0.50
+|   |   |--- class: 0
+|   |--- sex_Male >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- rthlth_y1 <= 3.50
+|   |   |--- class: 1
+|   |--- rthlth_y1 >  3.50
+|   |   |--- class: 1
+
+
+=== exp3a_clinical | P_age_95 ===
+Safety Rule (Recall>=70%): chronic>=1 OR rthlth>=99 OR age>=99
+
+-- Shallow Tree (depth=1) --
+|--- chronic_count <= 1.50
+|   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- chronic_count <= 1.50
+|   |--- sex_Male <= 0.50
+|   |   |--- class: 0
+|   |--- sex_Male >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- rthlth_y1 <= 3.50
+|   |   |--- class: 1
+|   |--- rthlth_y1 >  3.50
+|   |   |--- class: 1
+
+
+=== exp3a_clinical | P_age_80_D0err ===
+Safety Rule (Recall>=70%): chronic>=1 OR rthlth>=99 OR age>=99
+
+-- Shallow Tree (depth=1) --
+|--- chronic_count <= 1.50
+|   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- class: 1
+
+
+-- Shallow Tree (depth=2) --
+|--- chronic_count <= 1.50
+|   |--- sex_Male <= 0.50
+|   |   |--- class: 0
+|   |--- sex_Male >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  1.50
+|   |--- diabetes <= 0.50
+|   |   |--- class: 1
+|   |--- diabetes >  0.50
+|   |   |--- class: 1
+

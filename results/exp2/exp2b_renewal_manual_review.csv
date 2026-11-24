@@ -1,0 +1,25 @@
+setting,margin_def,policy,n_referred,pct_referred,avoidable_loss,breakeven_c_vs_accept_all_q1,breakeven_c_vs_HistGradientBoosting (cls)_q1
+exp2b_renewal,M_lam00,Rule Engine (Recall>=70%),25467,42.69,12132222.06,476.39,318.61
+exp2b_renewal,M_lam00,Shallow Tree (depth=2),9066,15.2,6785433.06,748.45,554.62
+exp2b_renewal,M_lam00,Decision Tree (depth=5),10403,17.44,7082034.9,680.77,14.01
+exp2b_renewal,M_lam00,HistGradientBoosting (cls),9580,16.06,7070506.31,738.05,
+exp2b_renewal,M_lam00,MLP (cls),11625,19.49,7416531.52,637.98,169.21
+exp2b_renewal,M_lam00,Review All,59658,100.0,17310434.3,290.16,204.48
+exp2b_renewal,M_lam15,Rule Engine (Recall>=70%),26914,45.11,13628874.07,506.39,313.6
+exp2b_renewal,M_lam15,Shallow Tree (depth=2),21328,35.75,11918046.24,558.8,321.0
+exp2b_renewal,M_lam15,Decision Tree (depth=5),18056,30.27,10857160.35,601.3,316.32
+exp2b_renewal,M_lam15,HistGradientBoosting (cls),15803,26.49,10144497.91,641.93,
+exp2b_renewal,M_lam15,MLP (cls),18993,31.84,11045595.91,581.56,282.48
+exp2b_renewal,M_lam15,Review All,59658,100.0,18853770.89,316.03,198.59
+exp2b_renewal,M_lam25,Rule Engine (Recall>=70%),29635,49.67,15335097.41,517.47,311.1
+exp2b_renewal,M_lam25,Shallow Tree (depth=2),23933,40.12,13513817.58,564.65,298.4
+exp2b_renewal,M_lam25,Decision Tree (depth=5),21125,35.41,12818447.63,606.79,452.84
+exp2b_renewal,M_lam25,HistGradientBoosting (cls),20202,33.86,12400478.22,613.82,
+exp2b_renewal,M_lam25,MLP (cls),23352,39.14,13334439.27,571.02,296.5
+exp2b_renewal,M_lam25,Review All,59658,100.0,20055699.89,336.18,194.02
+exp2b_renewal,M_lam35,Rule Engine (Recall>=70%),29635,49.67,16387833.71,552.99,317.47
+exp2b_renewal,M_lam35,Shallow Tree (depth=2),23933,40.12,14417463.1,602.41,507.88
+exp2b_renewal,M_lam35,Decision Tree (depth=5),23619,39.59,14506572.99,614.19,292.65
+exp2b_renewal,M_lam35,HistGradientBoosting (cls),24774,41.53,14844588.59,599.2,
+exp2b_renewal,M_lam35,MLP (cls),26838,44.99,15405090.45,574.0,271.56
+exp2b_renewal,M_lam35,Review All,59658,100.0,21440046.71,359.38,189.07

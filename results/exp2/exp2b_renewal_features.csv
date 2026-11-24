@@ -1,0 +1,21 @@
+setting,margin_def,feature_set,model,pct_referred,profit_M,gain_M
+exp2b_renewal,M_lam15,F_full,Shallow Tree (depth=2),35.75,14.5292,4.5341
+exp2b_renewal,M_lam15,F_full,Decision Tree (depth=5),30.27,14.8797,4.8846
+exp2b_renewal,M_lam15,F_full,Logistic Regression,30.43,13.845,3.8498
+exp2b_renewal,M_lam15,F_full,HistGradientBoosting (cls),26.49,15.1931,5.1979
+exp2b_renewal,M_lam15,F_full,MLP (cls),31.84,14.3425,4.3473
+exp2b_renewal,M_lam15,F_no_sensitive,Shallow Tree (depth=2),35.75,14.5292,4.5341
+exp2b_renewal,M_lam15,F_no_sensitive,Decision Tree (depth=5),30.28,14.8881,4.893
+exp2b_renewal,M_lam15,F_no_sensitive,Logistic Regression,19.77,14.0406,4.0455
+exp2b_renewal,M_lam15,F_no_sensitive,HistGradientBoosting (cls),30.0,15.0807,5.0856
+exp2b_renewal,M_lam15,F_no_sensitive,MLP (cls),27.93,14.8491,4.854
+exp2b_renewal,M_lam25,F_full,Shallow Tree (depth=2),40.12,10.7368,6.6051
+exp2b_renewal,M_lam25,F_full,Decision Tree (depth=5),35.41,10.9219,6.7901
+exp2b_renewal,M_lam25,F_full,Logistic Regression,30.16,9.929,5.7972
+exp2b_renewal,M_lam25,F_full,HistGradientBoosting (cls),33.86,11.1142,6.9824
+exp2b_renewal,M_lam25,F_full,MLP (cls),39.14,10.4061,6.2744
+exp2b_renewal,M_lam25,F_no_sensitive,Shallow Tree (depth=2),40.12,10.7368,6.6051
+exp2b_renewal,M_lam25,F_no_sensitive,Decision Tree (depth=5),33.94,10.9474,6.8156
+exp2b_renewal,M_lam25,F_no_sensitive,Logistic Regression,33.48,9.8069,5.6752
+exp2b_renewal,M_lam25,F_no_sensitive,HistGradientBoosting (cls),32.94,11.0605,6.9287
+exp2b_renewal,M_lam25,F_no_sensitive,MLP (cls),34.14,10.8637,6.7319

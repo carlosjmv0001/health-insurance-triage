@@ -1,0 +1,201 @@
+setting,margin_def,group_col,group_val,policy,n,pct_neg_margin,pct_referred,fpr,tpr,precision
+exp3a_clinical,P_age_80,sex,Female,Rule Engine (Recall>=70%),3221,22.48,54.73,50.86,68.09,27.96
+exp3a_clinical,P_age_80,sex,Female,Shallow Tree (depth=2),3221,22.48,28.5,24.95,40.75,32.14
+exp3a_clinical,P_age_80,sex,Female,Decision Tree (depth=5),3221,22.48,26.58,23.15,38.4,32.48
+exp3a_clinical,P_age_80,sex,Female,HistGradientBoosting (cls),3221,22.48,29.4,24.11,47.65,36.43
+exp3a_clinical,P_age_80,sex,Female,MLP (cls),3221,22.48,38.9,33.28,58.29,33.68
+exp3a_clinical,P_age_80,sex,Male,Rule Engine (Recall>=70%),2955,13.16,56.35,53.62,74.29,17.36
+exp3a_clinical,P_age_80,sex,Male,Shallow Tree (depth=2),2955,13.16,29.68,26.27,52.19,23.15
+exp3a_clinical,P_age_80,sex,Male,Decision Tree (depth=5),2955,13.16,17.63,14.65,37.28,27.83
+exp3a_clinical,P_age_80,sex,Male,HistGradientBoosting (cls),2955,13.16,12.39,9.2,33.42,35.52
+exp3a_clinical,P_age_80,sex,Male,MLP (cls),2955,13.16,18.95,15.51,41.65,28.93
+exp3a_clinical,P_age_80,age_group,18-29,Rule Engine (Recall>=70%),1115,15.61,28.34,26.67,37.36,20.57
+exp3a_clinical,P_age_80,age_group,18-29,Shallow Tree (depth=2),1115,15.61,6.55,5.31,13.22,31.51
+exp3a_clinical,P_age_80,age_group,18-29,Decision Tree (depth=5),1115,15.61,13.18,11.69,21.26,25.17
+exp3a_clinical,P_age_80,age_group,18-29,HistGradientBoosting (cls),1115,15.61,16.95,13.82,33.91,31.22
+exp3a_clinical,P_age_80,age_group,18-29,MLP (cls),1115,15.61,21.35,18.17,38.51,28.15
+exp3a_clinical,P_age_80,age_group,30-44,Rule Engine (Recall>=70%),2081,17.49,44.79,41.58,59.89,23.39
+exp3a_clinical,P_age_80,age_group,30-44,Shallow Tree (depth=2),2081,17.49,16.77,14.56,27.2,28.37
+exp3a_clinical,P_age_80,age_group,30-44,Decision Tree (depth=5),2081,17.49,20.57,17.36,35.71,30.37
+exp3a_clinical,P_age_80,age_group,30-44,HistGradientBoosting (cls),2081,17.49,19.8,15.32,40.93,36.17
+exp3a_clinical,P_age_80,age_group,30-44,MLP (cls),2081,17.49,29.89,25.45,50.82,29.74
+exp3a_clinical,P_age_80,age_group,45-59,Rule Engine (Recall>=70%),2174,19.73,68.49,64.47,84.85,24.45
+exp3a_clinical,P_age_80,age_group,45-59,Shallow Tree (depth=2),2174,19.73,40.62,35.53,61.31,29.78
+exp3a_clinical,P_age_80,age_group,45-59,Decision Tree (depth=5),2174,19.73,23.64,19.08,42.19,35.21
+exp3a_clinical,P_age_80,age_group,45-59,HistGradientBoosting (cls),2174,19.73,22.08,16.22,45.92,41.04
+exp3a_clinical,P_age_80,age_group,45-59,MLP (cls),2174,19.73,31.28,24.18,60.14,37.94
+exp3a_clinical,P_age_80,age_group,60-64,Rule Engine (Recall>=70%),806,18.11,85.73,84.24,92.47,19.54
+exp3a_clinical,P_age_80,age_group,60-64,Shallow Tree (depth=2),806,18.11,60.79,57.12,77.4,23.06
+exp3a_clinical,P_age_80,age_group,60-64,Decision Tree (depth=5),806,18.11,35.73,32.27,51.37,26.04
+exp3a_clinical,P_age_80,age_group,60-64,HistGradientBoosting (cls),806,18.11,28.78,24.55,47.95,30.17
+exp3a_clinical,P_age_80,age_group,60-64,MLP (cls),806,18.11,33.87,30.15,50.68,27.11
+exp3a_clinical,P_age_80,race_eth,Hispanic,Rule Engine (Recall>=70%),1035,10.82,46.86,45.07,61.61,14.23
+exp3a_clinical,P_age_80,race_eth,Hispanic,Shallow Tree (depth=2),1035,10.82,21.74,20.04,35.71,17.78
+exp3a_clinical,P_age_80,race_eth,Hispanic,Decision Tree (depth=5),1035,10.82,16.04,13.98,33.04,22.29
+exp3a_clinical,P_age_80,race_eth,Hispanic,HistGradientBoosting (cls),1035,10.82,13.04,10.73,32.14,26.67
+exp3a_clinical,P_age_80,race_eth,Hispanic,MLP (cls),1035,10.82,15.36,13.33,32.14,22.64
+exp3a_clinical,P_age_80,race_eth,NH_Asian,Rule Engine (Recall>=70%),526,14.45,43.73,41.33,57.89,19.13
+exp3a_clinical,P_age_80,race_eth,NH_Asian,Shallow Tree (depth=2),526,14.45,16.92,15.33,26.32,22.47
+exp3a_clinical,P_age_80,race_eth,NH_Asian,Decision Tree (depth=5),526,14.45,14.07,11.33,30.26,31.08
+exp3a_clinical,P_age_80,race_eth,NH_Asian,HistGradientBoosting (cls),526,14.45,8.75,6.22,23.68,39.13
+exp3a_clinical,P_age_80,race_eth,NH_Asian,MLP (cls),526,14.45,9.51,7.78,19.74,30.0
+exp3a_clinical,P_age_80,race_eth,NH_Black,Rule Engine (Recall>=70%),708,15.25,59.89,57.0,75.93,19.34
+exp3a_clinical,P_age_80,race_eth,NH_Black,Shallow Tree (depth=2),708,15.25,33.19,28.83,57.41,26.38
+exp3a_clinical,P_age_80,race_eth,NH_Black,Decision Tree (depth=5),708,15.25,24.01,21.17,39.81,25.29
+exp3a_clinical,P_age_80,race_eth,NH_Black,HistGradientBoosting (cls),708,15.25,16.1,12.67,35.19,33.33
+exp3a_clinical,P_age_80,race_eth,NH_Black,MLP (cls),708,15.25,21.19,16.83,45.37,32.67
+exp3a_clinical,P_age_80,race_eth,NH_Other,Rule Engine (Recall>=70%),189,11.64,61.9,59.88,77.27,14.53
+exp3a_clinical,P_age_80,race_eth,NH_Other,Shallow Tree (depth=2),189,11.64,29.1,25.15,59.09,23.64
+exp3a_clinical,P_age_80,race_eth,NH_Other,Decision Tree (depth=5),189,11.64,22.75,19.76,45.45,23.26
+exp3a_clinical,P_age_80,race_eth,NH_Other,HistGradientBoosting (cls),189,11.64,24.87,23.35,36.36,17.02
+exp3a_clinical,P_age_80,race_eth,NH_Other,MLP (cls),189,11.64,46.56,45.51,54.55,13.64
+exp3a_clinical,P_age_80,race_eth,NH_White,Rule Engine (Recall>=70%),3718,21.38,58.42,54.81,71.7,26.24
+exp3a_clinical,P_age_80,race_eth,NH_White,Shallow Tree (depth=2),3718,21.38,32.03,28.33,45.66,30.48
+exp3a_clinical,P_age_80,race_eth,NH_White,Decision Tree (depth=5),3718,21.38,24.85,21.01,38.99,33.55
+exp3a_clinical,P_age_80,race_eth,NH_White,HistGradientBoosting (cls),3718,21.38,26.12,20.39,47.17,38.62
+exp3a_clinical,P_age_80,race_eth,NH_White,MLP (cls),3718,21.38,36.74,30.59,59.37,34.55
+exp3a_clinical,P_age_80,povcat,1,Rule Engine (Recall>=70%),256,12.5,64.06,63.39,68.75,13.41
+exp3a_clinical,P_age_80,povcat,1,Shallow Tree (depth=2),256,12.5,39.84,37.5,56.25,17.65
+exp3a_clinical,P_age_80,povcat,1,Decision Tree (depth=5),256,12.5,19.92,19.2,25.0,15.69
+exp3a_clinical,P_age_80,povcat,1,HistGradientBoosting (cls),256,12.5,14.84,15.18,12.5,10.53
+exp3a_clinical,P_age_80,povcat,1,MLP (cls),256,12.5,18.36,17.41,25.0,17.02
+exp3a_clinical,P_age_80,povcat,2,Rule Engine (Recall>=70%),115,14.78,53.91,50.0,76.47,20.97
+exp3a_clinical,P_age_80,povcat,2,Shallow Tree (depth=2),115,14.78,32.17,30.61,41.18,18.92
+exp3a_clinical,P_age_80,povcat,2,Decision Tree (depth=5),115,14.78,9.57,8.16,17.65,27.27
+exp3a_clinical,P_age_80,povcat,2,HistGradientBoosting (cls),115,14.78,6.96,4.08,23.53,50.0
+exp3a_clinical,P_age_80,povcat,2,MLP (cls),115,14.78,15.65,13.27,29.41,27.78
+exp3a_clinical,P_age_80,povcat,3,Rule Engine (Recall>=70%),440,14.55,52.95,50.53,67.19,18.45
+exp3a_clinical,P_age_80,povcat,3,Shallow Tree (depth=2),440,14.55,29.09,25.53,50.0,25.0
+exp3a_clinical,P_age_80,povcat,3,Decision Tree (depth=5),440,14.55,21.82,18.62,40.62,27.08
+exp3a_clinical,P_age_80,povcat,3,HistGradientBoosting (cls),440,14.55,12.05,8.78,31.25,37.74
+exp3a_clinical,P_age_80,povcat,3,MLP (cls),440,14.55,22.05,18.62,42.19,27.84
+exp3a_clinical,P_age_80,povcat,4,Rule Engine (Recall>=70%),1798,16.85,53.39,50.17,69.31,21.88
+exp3a_clinical,P_age_80,povcat,4,Shallow Tree (depth=2),1798,16.85,28.59,25.15,45.54,26.85
+exp3a_clinical,P_age_80,povcat,4,Decision Tree (depth=5),1798,16.85,20.24,16.92,36.63,30.49
+exp3a_clinical,P_age_80,povcat,4,HistGradientBoosting (cls),1798,16.85,19.13,14.85,40.26,35.47
+exp3a_clinical,P_age_80,povcat,4,MLP (cls),1798,16.85,29.37,24.15,55.12,31.63
+exp3a_clinical,P_age_80,povcat,5,Rule Engine (Recall>=70%),3567,19.54,56.32,52.79,70.88,24.59
+exp3a_clinical,P_age_80,povcat,5,Shallow Tree (depth=2),3567,19.54,28.43,24.77,43.47,29.88
+exp3a_clinical,P_age_80,povcat,5,Decision Tree (depth=5),3567,19.54,23.97,20.21,39.45,32.16
+exp3a_clinical,P_age_80,povcat,5,HistGradientBoosting (cls),3567,19.54,24.39,18.99,46.63,37.36
+exp3a_clinical,P_age_80,povcat,5,MLP (cls),3567,19.54,31.48,25.99,54.09,33.57
+exp3a_clinical,P_age_80,region,Midwest,Rule Engine (Recall>=70%),1402,19.26,55.63,52.47,68.89,23.85
+exp3a_clinical,P_age_80,region,Midwest,Shallow Tree (depth=2),1402,19.26,28.53,25.44,41.48,28.0
+exp3a_clinical,P_age_80,region,Midwest,Decision Tree (depth=5),1402,19.26,21.4,18.55,33.33,30.0
+exp3a_clinical,P_age_80,region,Midwest,HistGradientBoosting (cls),1402,19.26,22.75,18.11,42.22,35.74
+exp3a_clinical,P_age_80,region,Midwest,MLP (cls),1402,19.26,36.59,31.18,59.26,31.19
+exp3a_clinical,P_age_80,region,Northeast,Rule Engine (Recall>=70%),997,21.06,54.16,50.7,67.14,26.11
+exp3a_clinical,P_age_80,region,Northeast,Shallow Tree (depth=2),997,21.06,28.18,25.03,40.0,29.89
+exp3a_clinical,P_age_80,region,Northeast,Decision Tree (depth=5),997,21.06,21.87,18.55,34.29,33.03
+exp3a_clinical,P_age_80,region,Northeast,HistGradientBoosting (cls),997,21.06,22.67,17.79,40.95,38.05
+exp3a_clinical,P_age_80,region,Northeast,MLP (cls),997,21.06,34.4,29.22,53.81,32.94
+exp3a_clinical,P_age_80,region,South,Rule Engine (Recall>=70%),2239,15.94,58.46,55.53,73.95,20.17
+exp3a_clinical,P_age_80,region,South,Shallow Tree (depth=2),2239,15.94,33.23,29.54,52.66,25.27
+exp3a_clinical,P_age_80,region,South,Decision Tree (depth=5),2239,15.94,24.52,21.15,42.3,27.5
+exp3a_clinical,P_age_80,region,South,HistGradientBoosting (cls),2239,15.94,17.82,13.44,40.9,36.59
+exp3a_clinical,P_age_80,region,South,MLP (cls),2239,15.94,23.4,19.23,45.38,30.92
+exp3a_clinical,P_age_80,region,West,Rule Engine (Recall>=70%),1538,17.95,51.95,48.18,69.2,23.9
+exp3a_clinical,P_age_80,region,West,Shallow Tree (depth=2),1538,17.95,24.06,20.29,41.3,30.81
+exp3a_clinical,P_age_80,region,West,Decision Tree (depth=5),1538,17.95,20.16,15.85,39.86,35.48
+exp3a_clinical,P_age_80,region,West,HistGradientBoosting (cls),1538,17.95,23.99,19.02,46.74,34.96
+exp3a_clinical,P_age_80,region,West,MLP (cls),1538,17.95,28.15,22.5,53.99,34.41
+exp3a_clinical,P_age_95,sex,Female,Rule Engine (Recall>=70%),3221,25.36,54.73,50.58,66.95,31.03
+exp3a_clinical,P_age_95,sex,Female,Shallow Tree (depth=2),3221,25.36,28.5,24.54,40.15,35.73
+exp3a_clinical,P_age_95,sex,Female,Decision Tree (depth=5),3221,25.36,25.86,22.63,35.37,34.69
+exp3a_clinical,P_age_95,sex,Female,HistGradientBoosting (cls),3221,25.36,47.97,42.3,64.63,34.17
+exp3a_clinical,P_age_95,sex,Female,MLP (cls),3221,25.36,45.54,39.48,63.4,35.31
+exp3a_clinical,P_age_95,sex,Male,Rule Engine (Recall>=70%),2955,15.4,56.35,52.88,75.38,20.6
+exp3a_clinical,P_age_95,sex,Male,Shallow Tree (depth=2),2955,15.4,29.68,25.68,51.65,26.8
+exp3a_clinical,P_age_95,sex,Male,Decision Tree (depth=5),2955,15.4,11.44,8.68,26.59,35.8
+exp3a_clinical,P_age_95,sex,Male,HistGradientBoosting (cls),2955,15.4,25.48,21.12,49.45,29.88
+exp3a_clinical,P_age_95,sex,Male,MLP (cls),2955,15.4,24.33,19.68,49.89,31.57
+exp3a_clinical,P_age_95,age_group,18-29,Rule Engine (Recall>=70%),1115,17.94,28.34,25.9,39.5,25.0
+exp3a_clinical,P_age_95,age_group,18-29,Shallow Tree (depth=2),1115,17.94,6.55,4.92,14.0,38.36
+exp3a_clinical,P_age_95,age_group,18-29,Decision Tree (depth=5),1115,17.94,10.85,9.51,17.0,28.1
+exp3a_clinical,P_age_95,age_group,18-29,HistGradientBoosting (cls),1115,17.94,35.52,31.48,54.0,27.27
+exp3a_clinical,P_age_95,age_group,18-29,MLP (cls),1115,17.94,29.06,25.03,47.5,29.32
+exp3a_clinical,P_age_95,age_group,30-44,Rule Engine (Recall>=70%),2081,19.8,44.79,41.4,58.5,25.86
+exp3a_clinical,P_age_95,age_group,30-44,Shallow Tree (depth=2),2081,19.8,16.77,14.44,26.21,30.95
+exp3a_clinical,P_age_95,age_group,30-44,Decision Tree (depth=5),2081,19.8,15.95,12.88,28.4,35.24
+exp3a_clinical,P_age_95,age_group,30-44,HistGradientBoosting (cls),2081,19.8,37.77,31.94,61.41,32.19
+exp3a_clinical,P_age_95,age_group,30-44,MLP (cls),2081,19.8,37.1,31.76,58.74,31.35
+exp3a_clinical,P_age_95,age_group,45-59,Rule Engine (Recall>=70%),2174,22.4,68.49,64.02,83.98,27.47
+exp3a_clinical,P_age_95,age_group,45-59,Shallow Tree (depth=2),2174,22.4,40.62,34.91,60.37,33.3
+exp3a_clinical,P_age_95,age_group,45-59,Decision Tree (depth=5),2174,22.4,20.88,16.42,36.34,38.99
+exp3a_clinical,P_age_95,age_group,45-59,HistGradientBoosting (cls),2174,22.4,36.38,29.76,59.34,36.54
+exp3a_clinical,P_age_95,age_group,45-59,MLP (cls),2174,22.4,35.92,28.04,63.24,39.44
+exp3a_clinical,P_age_95,age_group,60-64,Rule Engine (Recall>=70%),806,21.46,85.73,83.73,93.06,23.3
+exp3a_clinical,P_age_95,age_group,60-64,Shallow Tree (depth=2),806,21.46,60.79,56.4,76.88,27.14
+exp3a_clinical,P_age_95,age_group,60-64,Decision Tree (depth=5),806,21.46,32.75,28.75,47.4,31.06
+exp3a_clinical,P_age_95,age_group,60-64,HistGradientBoosting (cls),806,21.46,40.32,35.07,59.54,31.69
+exp3a_clinical,P_age_95,age_group,60-64,MLP (cls),806,21.46,38.34,33.02,57.8,32.36
+exp3a_clinical,P_age_95,race_eth,Hispanic,Rule Engine (Recall>=70%),1035,12.37,46.86,44.54,63.28,16.7
+exp3a_clinical,P_age_95,race_eth,Hispanic,Shallow Tree (depth=2),1035,12.37,21.74,19.74,35.94,20.44
+exp3a_clinical,P_age_95,race_eth,Hispanic,Decision Tree (depth=5),1035,12.37,13.82,12.68,21.88,19.58
+exp3a_clinical,P_age_95,race_eth,Hispanic,HistGradientBoosting (cls),1035,12.37,26.18,23.15,47.66,22.51
+exp3a_clinical,P_age_95,race_eth,Hispanic,MLP (cls),1035,12.37,20.0,17.31,39.06,24.15
+exp3a_clinical,P_age_95,race_eth,NH_Asian,Rule Engine (Recall>=70%),526,16.54,43.73,41.23,56.32,21.3
+exp3a_clinical,P_age_95,race_eth,NH_Asian,Shallow Tree (depth=2),526,16.54,16.92,14.81,27.59,26.97
+exp3a_clinical,P_age_95,race_eth,NH_Asian,Decision Tree (depth=5),526,16.54,10.27,7.74,22.99,37.04
+exp3a_clinical,P_age_95,race_eth,NH_Asian,HistGradientBoosting (cls),526,16.54,18.25,14.58,36.78,33.33
+exp3a_clinical,P_age_95,race_eth,NH_Asian,MLP (cls),526,16.54,11.03,8.88,21.84,32.76
+exp3a_clinical,P_age_95,race_eth,NH_Black,Rule Engine (Recall>=70%),708,17.8,59.89,56.7,74.6,22.17
+exp3a_clinical,P_age_95,race_eth,NH_Black,Shallow Tree (depth=2),708,17.8,33.19,28.18,56.35,30.21
+exp3a_clinical,P_age_95,race_eth,NH_Black,Decision Tree (depth=5),708,17.8,19.07,17.35,26.98,25.19
+exp3a_clinical,P_age_95,race_eth,NH_Black,HistGradientBoosting (cls),708,17.8,26.55,22.34,46.03,30.85
+exp3a_clinical,P_age_95,race_eth,NH_Black,MLP (cls),708,17.8,23.59,18.21,48.41,36.53
+exp3a_clinical,P_age_95,race_eth,NH_Other,Rule Engine (Recall>=70%),189,15.87,61.9,59.12,76.67,19.66
+exp3a_clinical,P_age_95,race_eth,NH_Other,Shallow Tree (depth=2),189,15.87,29.1,23.9,56.67,30.91
+exp3a_clinical,P_age_95,race_eth,NH_Other,Decision Tree (depth=5),189,15.87,15.34,13.21,26.67,27.59
+exp3a_clinical,P_age_95,race_eth,NH_Other,HistGradientBoosting (cls),189,15.87,39.15,37.11,50.0,20.27
+exp3a_clinical,P_age_95,race_eth,NH_Other,MLP (cls),189,15.87,47.62,46.54,53.33,17.78
+exp3a_clinical,P_age_95,race_eth,NH_White,Rule Engine (Recall>=70%),3718,24.23,58.42,54.28,71.37,29.6
+exp3a_clinical,P_age_95,race_eth,NH_White,Shallow Tree (depth=2),3718,24.23,32.03,27.9,44.95,34.01
+exp3a_clinical,P_age_95,race_eth,NH_White,Decision Tree (depth=5),3718,24.23,21.79,17.39,35.52,39.51
+exp3a_clinical,P_age_95,race_eth,NH_White,HistGradientBoosting (cls),3718,24.23,44.89,38.41,65.15,35.17
+exp3a_clinical,P_age_95,race_eth,NH_White,MLP (cls),3718,24.23,44.76,37.81,66.48,36.0
+exp3a_clinical,P_age_95,povcat,1,Rule Engine (Recall>=70%),256,16.02,64.06,63.26,68.29,17.07
+exp3a_clinical,P_age_95,povcat,1,Shallow Tree (depth=2),256,16.02,39.84,36.74,56.1,22.55
+exp3a_clinical,P_age_95,povcat,1,Decision Tree (depth=5),256,16.02,20.7,20.93,19.51,15.09
+exp3a_clinical,P_age_95,povcat,1,HistGradientBoosting (cls),256,16.02,29.3,27.91,36.59,20.0
+exp3a_clinical,P_age_95,povcat,1,MLP (cls),256,16.02,14.45,13.95,17.07,18.92
+exp3a_clinical,P_age_95,povcat,2,Rule Engine (Recall>=70%),115,17.39,53.91,50.53,70.0,22.58
+exp3a_clinical,P_age_95,povcat,2,Shallow Tree (depth=2),115,17.39,32.17,30.53,40.0,21.62
+exp3a_clinical,P_age_95,povcat,2,Decision Tree (depth=5),115,17.39,11.3,7.37,30.0,46.15
+exp3a_clinical,P_age_95,povcat,2,HistGradientBoosting (cls),115,17.39,18.26,15.79,30.0,28.57
+exp3a_clinical,P_age_95,povcat,2,MLP (cls),115,17.39,14.78,10.53,35.0,41.18
+exp3a_clinical,P_age_95,povcat,3,Rule Engine (Recall>=70%),440,16.36,52.95,50.0,68.06,21.03
+exp3a_clinical,P_age_95,povcat,3,Shallow Tree (depth=2),440,16.36,29.09,25.27,48.61,27.34
+exp3a_clinical,P_age_95,povcat,3,Decision Tree (depth=5),440,16.36,19.55,17.12,31.94,26.74
+exp3a_clinical,P_age_95,povcat,3,HistGradientBoosting (cls),440,16.36,24.09,20.92,40.28,27.36
+exp3a_clinical,P_age_95,povcat,3,MLP (cls),440,16.36,25.91,21.47,48.61,30.7
+exp3a_clinical,P_age_95,povcat,4,Rule Engine (Recall>=70%),1798,19.69,53.39,49.38,69.77,25.73
+exp3a_clinical,P_age_95,povcat,4,Shallow Tree (depth=2),1798,19.69,28.59,24.58,44.92,30.93
+exp3a_clinical,P_age_95,povcat,4,Decision Tree (depth=5),1798,19.69,17.69,14.82,29.38,32.7
+exp3a_clinical,P_age_95,povcat,4,HistGradientBoosting (cls),1798,19.69,32.48,27.35,53.39,32.36
+exp3a_clinical,P_age_95,povcat,4,MLP (cls),1798,19.69,34.15,28.39,57.63,33.22
+exp3a_clinical,P_age_95,povcat,5,Rule Engine (Recall>=70%),3567,22.01,56.32,52.37,70.32,27.48
+exp3a_clinical,P_age_95,povcat,5,Shallow Tree (depth=2),3567,22.01,28.43,24.3,43.06,33.33
+exp3a_clinical,P_age_95,povcat,5,Decision Tree (depth=5),3567,22.01,19.65,15.53,34.27,38.37
+exp3a_clinical,P_age_95,povcat,5,HistGradientBoosting (cls),3567,22.01,42.39,35.87,65.48,33.99
+exp3a_clinical,P_age_95,povcat,5,MLP (cls),3567,22.01,39.36,32.78,62.68,35.04
+exp3a_clinical,P_age_95,region,Midwest,Rule Engine (Recall>=70%),1402,22.25,55.63,52.02,68.27,27.31
+exp3a_clinical,P_age_95,region,Midwest,Shallow Tree (depth=2),1402,22.25,28.53,24.77,41.67,32.5
+exp3a_clinical,P_age_95,region,Midwest,Decision Tree (depth=5),1402,22.25,17.9,14.68,29.17,36.25
+exp3a_clinical,P_age_95,region,Midwest,HistGradientBoosting (cls),1402,22.25,41.65,36.33,60.26,32.19
+exp3a_clinical,P_age_95,region,Midwest,MLP (cls),1402,22.25,44.01,37.34,67.31,34.04
+exp3a_clinical,P_age_95,region,Northeast,Rule Engine (Recall>=70%),997,23.87,54.16,50.46,65.97,29.07
+exp3a_clinical,P_age_95,region,Northeast,Shallow Tree (depth=2),997,23.87,28.18,24.9,38.66,32.74
+exp3a_clinical,P_age_95,region,Northeast,Decision Tree (depth=5),997,23.87,17.85,14.23,29.41,39.33
+exp3a_clinical,P_age_95,region,Northeast,HistGradientBoosting (cls),997,23.87,40.82,35.44,57.98,33.91
+exp3a_clinical,P_age_95,region,Northeast,MLP (cls),997,23.87,46.14,40.58,63.87,33.04
+exp3a_clinical,P_age_95,region,South,Rule Engine (Recall>=70%),2239,18.13,58.46,55.05,73.89,22.92
+exp3a_clinical,P_age_95,region,South,Shallow Tree (depth=2),2239,18.13,33.23,29.08,51.97,28.36
+exp3a_clinical,P_age_95,region,South,Decision Tree (depth=5),2239,18.13,20.81,17.73,34.73,30.26
+exp3a_clinical,P_age_95,region,South,HistGradientBoosting (cls),2239,18.13,32.34,26.57,58.37,32.73
+exp3a_clinical,P_age_95,region,South,MLP (cls),2239,18.13,26.44,21.55,48.52,33.28
+exp3a_clinical,P_age_95,region,West,Rule Engine (Recall>=70%),1538,20.55,51.95,47.38,69.62,27.53
+exp3a_clinical,P_age_95,region,West,Shallow Tree (depth=2),1538,20.55,24.06,19.64,41.14,35.14
+exp3a_clinical,P_age_95,region,West,Decision Tree (depth=5),1538,20.55,17.95,13.75,34.18,39.13
+exp3a_clinical,P_age_95,region,West,HistGradientBoosting (cls),1538,20.55,37.91,32.16,60.13,32.59
+exp3a_clinical,P_age_95,region,West,MLP (cls),1538,20.55,33.62,27.09,58.86,35.98

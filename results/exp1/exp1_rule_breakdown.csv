@@ -1,0 +1,8 @@
+rule,n,pct_neg_D0,total_m_D0_M,mean_m_D0,total_m_D2_M,mean_m_D2
+Polymorbidity: chronic >= 2,3990,54.8,-3.344,-838.1,-5.004,-1254.2
+1 chronic & (age > 45 OR SBP > 125),6135,38.0,1.053,171.7,-2.368,-386.0
+0 chronic: SBP > 130 & LDL > 130,363,19.6,0.379,1044.2,0.061,167.8
+0 chronic: current smoker,1343,21.4,1.238,921.6,0.139,103.8
+0 chronic: former smoker & BMI > 30,563,16.2,0.589,1045.7,0.085,151.2
+0 chronic: age > 60,1553,15.8,1.658,1067.4,0.303,194.8
+Fast-track (no rule triggered),11053,18.3,9.829,889.2,0.951,86.0

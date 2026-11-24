@@ -1,0 +1,15 @@
+# Raw downloaded datasets (fetched via scripts/download_data.py)
+data/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pkl
+.venv/
+venv/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

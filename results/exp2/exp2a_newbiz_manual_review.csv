@@ -1,0 +1,25 @@
+setting,margin_def,policy,n_referred,pct_referred,avoidable_loss,breakeven_c_vs_accept_all_q1,breakeven_c_vs_HistGradientBoosting (cls)_q1
+exp2a_newbiz,M_lam00,Rule Engine (Recall>=70%),2486,18.56,326045.3,131.15,118.56
+exp2a_newbiz,M_lam00,Shallow Tree (depth=2),0,0.0,-0.0,,186.49
+exp2a_newbiz,M_lam00,Decision Tree (depth=5),641,4.79,90788.72,141.64,26.76
+exp2a_newbiz,M_lam00,HistGradientBoosting (cls),461,3.44,85971.34,186.49,
+exp2a_newbiz,M_lam00,MLP (cls),143,1.07,8532.07,59.66,243.52
+exp2a_newbiz,M_lam00,Review All,13391,100.0,1366756.03,102.07,99.06
+exp2a_newbiz,M_lam15,Rule Engine (Recall>=70%),2486,18.56,363031.17,146.03,132.71
+exp2a_newbiz,M_lam15,Shallow Tree (depth=2),789,5.89,98161.95,124.41,13.58
+exp2a_newbiz,M_lam15,Decision Tree (depth=5),416,3.11,59900.24,143.99,843.47
+exp2a_newbiz,M_lam15,HistGradientBoosting (cls),456,3.41,93639.01,205.35,
+exp2a_newbiz,M_lam15,MLP (cls),126,0.94,10031.2,79.61,253.36
+exp2a_newbiz,M_lam15,Review All,13391,100.0,1519081.49,113.44,110.2
+exp2a_newbiz,M_lam25,Rule Engine (Recall>=70%),2486,18.56,391829.13,157.61,155.52
+exp2a_newbiz,M_lam25,Shallow Tree (depth=2),1405,10.49,185414.73,131.97,269.84
+exp2a_newbiz,M_lam25,Decision Tree (depth=5),804,6.0,111930.91,139.22,175.09
+exp2a_newbiz,M_lam25,HistGradientBoosting (cls),1740,12.99,275811.45,158.51,
+exp2a_newbiz,M_lam25,MLP (cls),1584,11.83,259387.63,163.75,105.28
+exp2a_newbiz,M_lam25,Review All,13391,100.0,1638251.94,122.34,116.94
+exp2a_newbiz,M_lam35,Rule Engine (Recall>=70%),2486,18.56,424116.87,170.6,146.43
+exp2a_newbiz,M_lam35,Shallow Tree (depth=2),1405,10.49,200943.8,143.02,-294.95
+exp2a_newbiz,M_lam35,Decision Tree (depth=5),1922,14.35,313063.03,162.88,103.56
+exp2a_newbiz,M_lam35,HistGradientBoosting (cls),1258,9.39,244301.68,194.2,
+exp2a_newbiz,M_lam35,MLP (cls),1773,13.24,314368.35,177.31,136.05
+exp2a_newbiz,M_lam35,Review All,13391,100.0,1776727.67,132.68,126.3

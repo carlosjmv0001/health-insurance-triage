@@ -1,0 +1,159 @@
+mean_predicted,fraction_positive,setting,margin_def,model
+0.041069180560910176,0.07028112449799197,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.05410447761194036,0.09446254071661238,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.07817417153376872,0.1044776119402985,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.09733460289987045,0.1461794019933555,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.11050800813462627,0.10101010101010101,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.14459687490363837,0.19714285714285715,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.18439901173688963,0.23046092184368738,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.20981243330882304,0.19213313161875945,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.26680312270656753,0.32608695652173914,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.41029158996711496,0.39669421487603307,exp3a_clinical,P_comm_80,Decision Tree (depth=5)
+0.04661748635133491,0.05016181229773463,exp3a_clinical,P_comm_80,Logistic Regression
+0.07022420842243084,0.05177993527508091,exp3a_clinical,P_comm_80,Logistic Regression
+0.08750554441518901,0.08752025931928688,exp3a_clinical,P_comm_80,Logistic Regression
+0.10472109271078543,0.11003236245954692,exp3a_clinical,P_comm_80,Logistic Regression
+0.12253699947889043,0.15883306320907617,exp3a_clinical,P_comm_80,Logistic Regression
+0.14239276054272454,0.13915857605177995,exp3a_clinical,P_comm_80,Logistic Regression
+0.1672748996402304,0.1847649918962723,exp3a_clinical,P_comm_80,Logistic Regression
+0.2032253176717185,0.22168284789644013,exp3a_clinical,P_comm_80,Logistic Regression
+0.26289372008828993,0.3387358184764992,exp3a_clinical,P_comm_80,Logistic Regression
+0.4394746812390436,0.4692556634304207,exp3a_clinical,P_comm_80,Logistic Regression
+0.03515983261318718,0.04692556634304207,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.057590246093666,0.0889967637540453,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.07312927319408229,0.08427876823338736,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.08905977578233781,0.10679611650485436,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.10573423231860672,0.12479740680713128,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.12710319613351406,0.1634304207119741,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.15852530517360092,0.18962722852512157,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.2066615333346615,0.23624595469255663,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.28978565492129843,0.3241491085899514,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.4850453705437487,0.44660194174757284,exp3a_clinical,P_comm_80,HistGradientBoosting (cls)
+0.03883879439164342,0.05663430420711974,exp3a_clinical,P_comm_80,MLP (cls)
+0.06290016126899338,0.08414239482200647,exp3a_clinical,P_comm_80,MLP (cls)
+0.08118393325689358,0.08265802269043761,exp3a_clinical,P_comm_80,MLP (cls)
+0.09912901594089099,0.11812297734627832,exp3a_clinical,P_comm_80,MLP (cls)
+0.11927477219127525,0.12641815235008103,exp3a_clinical,P_comm_80,MLP (cls)
+0.14313996883726343,0.13592233009708737,exp3a_clinical,P_comm_80,MLP (cls)
+0.1777272259558519,0.18152350081037277,exp3a_clinical,P_comm_80,MLP (cls)
+0.22834232007067326,0.22330097087378642,exp3a_clinical,P_comm_80,MLP (cls)
+0.30308035191248706,0.35980551053484605,exp3a_clinical,P_comm_80,MLP (cls)
+0.46146257067269364,0.44336569579288027,exp3a_clinical,P_comm_80,MLP (cls)
+0.03897898258535382,0.09016393442622951,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.06806391794251714,0.08944099378881988,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.10374821793357089,0.15496809480401094,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.11556080798174727,0.1589958158995816,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.13172777725322346,0.1595238095238095,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.17507812235314124,0.1743827160493827,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.20276276469618412,0.24629080118694363,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.27738863143311193,0.2415966386554622,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.36711106245248093,0.37891268533772654,exp3a_clinical,P_age_80,Decision Tree (depth=5)
+0.050849525678893594,0.05177993527508091,exp3a_clinical,P_age_80,Logistic Regression
+0.07384849979548062,0.06796116504854369,exp3a_clinical,P_age_80,Logistic Regression
+0.0910259834383754,0.09238249594813615,exp3a_clinical,P_age_80,Logistic Regression
+0.10661294918573848,0.10841423948220065,exp3a_clinical,P_age_80,Logistic Regression
+0.12310824342743057,0.1393841166936791,exp3a_clinical,P_age_80,Logistic Regression
+0.1415516398300031,0.156957928802589,exp3a_clinical,P_age_80,Logistic Regression
+0.16414927806781035,0.20745542949756887,exp3a_clinical,P_age_80,Logistic Regression
+0.1941026993732617,0.23786407766990292,exp3a_clinical,P_age_80,Logistic Regression
+0.24182680039220433,0.2917341977309562,exp3a_clinical,P_age_80,Logistic Regression
+0.3916221864641875,0.4482200647249191,exp3a_clinical,P_age_80,Logistic Regression
+0.04719162576059345,0.06310679611650485,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.06759637742308743,0.061488673139158574,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.08129361304986198,0.12135922330097088,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.09569636379434802,0.11993517017828201,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.11266017241033452,0.13452188006482982,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.13315677937203546,0.16828478964401294,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.15983916770226944,0.17179902755267423,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.19807576153986794,0.22815533980582525,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.2627646537760661,0.31280388978930307,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.4243048659774716,0.42071197411003236,exp3a_clinical,P_age_80,HistGradientBoosting (cls)
+0.04118957468376124,0.06634304207119741,exp3a_clinical,P_age_80,MLP (cls)
+0.06255477676270997,0.0744336569579288,exp3a_clinical,P_age_80,MLP (cls)
+0.07944172943420572,0.1085899513776337,exp3a_clinical,P_age_80,MLP (cls)
+0.09682156629358436,0.10841423948220065,exp3a_clinical,P_age_80,MLP (cls)
+0.11547337363219777,0.12641815235008103,exp3a_clinical,P_age_80,MLP (cls)
+0.13760037600930242,0.15210355987055016,exp3a_clinical,P_age_80,MLP (cls)
+0.16693837154880975,0.1993517017828201,exp3a_clinical,P_age_80,MLP (cls)
+0.20815698753771877,0.23300970873786409,exp3a_clinical,P_age_80,MLP (cls)
+0.26783059430052003,0.3079416531604538,exp3a_clinical,P_age_80,MLP (cls)
+0.4040539160029392,0.4255663430420712,exp3a_clinical,P_age_80,MLP (cls)
+0.05578922587222165,0.10092807424593968,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.08201012215132505,0.09424083769633508,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.11995465975558131,0.2283464566929134,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.13489409141582923,0.1771523178807947,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.13939556718662222,0.1828793774319066,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.1550588453273373,0.18494271685761046,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.20452406018445238,0.2233560090702948,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.23981056336367787,0.2713178294573643,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.2926606756476352,0.2879045996592845,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.4358494132824817,0.4126712328767123,exp3a_clinical,P_age_95,Decision Tree (depth=5)
+0.0594279439326616,0.05501618122977346,exp3a_clinical,P_age_95,Logistic Regression
+0.086543573028871,0.07928802588996764,exp3a_clinical,P_age_95,Logistic Regression
+0.10634719791551898,0.11021069692058347,exp3a_clinical,P_age_95,Logistic Regression
+0.12496819585711348,0.13268608414239483,exp3a_clinical,P_age_95,Logistic Regression
+0.14451575425802426,0.16369529983792544,exp3a_clinical,P_age_95,Logistic Regression
+0.16589244401649783,0.18284789644012944,exp3a_clinical,P_age_95,Logistic Regression
+0.19244170159631693,0.23500810372771475,exp3a_clinical,P_age_95,Logistic Regression
+0.22717884845971667,0.284789644012945,exp3a_clinical,P_age_95,Logistic Regression
+0.28187391669866385,0.33225283630470015,exp3a_clinical,P_age_95,Logistic Regression
+0.44415260174133214,0.48381877022653724,exp3a_clinical,P_age_95,Logistic Regression
+0.05202393894319518,0.05016181229773463,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.07455350211737245,0.10194174757281553,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.09267286304187748,0.1426256077795786,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.11115102993724833,0.11650485436893204,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.13044246763538908,0.18962722852512157,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.15392169996479965,0.1941747572815534,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.1851827942322005,0.22042139384116693,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.23071265483572093,0.2702265372168285,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.30233629086538055,0.31442463533225284,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.48455000663997133,0.459546925566343,exp3a_clinical,P_age_95,HistGradientBoosting (cls)
+0.04394738003594845,0.07605177993527508,exp3a_clinical,P_age_95,MLP (cls)
+0.06943854705676442,0.08576051779935275,exp3a_clinical,P_age_95,MLP (cls)
+0.08928476535866987,0.11183144246353323,exp3a_clinical,P_age_95,MLP (cls)
+0.11006141843875239,0.15372168284789645,exp3a_clinical,P_age_95,MLP (cls)
+0.13427620847025615,0.1312803889789303,exp3a_clinical,P_age_95,MLP (cls)
+0.1614022483741559,0.19093851132686085,exp3a_clinical,P_age_95,MLP (cls)
+0.1974105687458944,0.23176661264181522,exp3a_clinical,P_age_95,MLP (cls)
+0.24713483496774094,0.2669902912621359,exp3a_clinical,P_age_95,MLP (cls)
+0.31858655211716336,0.35980551053484605,exp3a_clinical,P_age_95,MLP (cls)
+0.4713040900142265,0.45145631067961167,exp3a_clinical,P_age_95,MLP (cls)
+0.029872184677822343,0.05308464849354376,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.05587021759018873,0.0851581508515815,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.08733539944834091,0.1411764705882353,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.09557522123893865,0.10493827160493827,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.09912463432611633,0.10631229235880399,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.14938852479444292,0.12775842044134728,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.18388615741556527,0.19597069597069597,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.22186187762610082,0.225177304964539,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.3390780467439169,0.3463917525773196,exp3a_clinical,P_age_80_D0err,Decision Tree (depth=5)
+0.044912171368605314,0.032362459546925564,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.06338288170036427,0.06310679611650485,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.07677209363400697,0.08265802269043761,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.08934328170969032,0.0825242718446602,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.10201017751826162,0.10372771474878444,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.11665261614726906,0.11974110032362459,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.13422141555478254,0.16045380875202594,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.1583002283884415,0.1925566343042071,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.1977249398573029,0.23014586709886548,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.3337004563743801,0.3851132686084142,exp3a_clinical,P_age_80_D0err,Logistic Regression
+0.037288126118636876,0.05663430420711974,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.05484781543735482,0.06796116504854369,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.06663191042427527,0.07293354943273905,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.07925037661012992,0.09061488673139159,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.09302803263620828,0.1085899513776337,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.10781672069947927,0.12944983818770225,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.12786771071501754,0.15883306320907617,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.15922024909655666,0.1715210355987055,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.21371541997326962,0.2560777957860616,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.3661184045541436,0.33980582524271846,exp3a_clinical,P_age_80_D0err,HistGradientBoosting (cls)
+0.036894283225505344,0.06796116504854369,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.05775123435764731,0.11165048543689321,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.0732742461357123,0.11507293354943274,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.08799367064586108,0.11974110032362459,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.10198471865318418,0.1085899513776337,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.11667547055732594,0.127831715210356,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.1345599348724954,0.1393841166936791,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.1572801941157475,0.1715210355987055,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.1939517758830613,0.22042139384116693,exp3a_clinical,P_age_80_D0err,MLP (cls)
+0.28250860467410804,0.2702265372168285,exp3a_clinical,P_age_80_D0err,MLP (cls)

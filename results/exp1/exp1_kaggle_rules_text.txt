@@ -1,0 +1,59 @@
+=== m_D0 | Shallow Tree (depth=1) ===
+|--- chronic_count <= 0.50
+|   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- class: 1
+
+
+=== m_D0 | Shallow Tree (depth=2) ===
+|--- chronic_count <= 0.50
+|   |--- smoker_Never <= 0.50
+|   |   |--- class: 0
+|   |--- smoker_Never >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- chronic_count <= 1.50
+|   |   |--- class: 1
+|   |--- chronic_count >  1.50
+|   |   |--- class: 1
+
+
+=== m_D2 | Shallow Tree (depth=1) ===
+|--- chronic_count <= 0.50
+|   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- class: 1
+
+
+=== m_D2 | Shallow Tree (depth=2) ===
+|--- chronic_count <= 0.50
+|   |--- smoker_Never <= 0.50
+|   |   |--- class: 0
+|   |--- smoker_Never >  0.50
+|   |   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- chronic_count <= 1.50
+|   |   |--- class: 1
+|   |--- chronic_count >  1.50
+|   |   |--- class: 1
+
+
+=== m_D1 | Shallow Tree (depth=1) ===
+|--- chronic_count <= 0.50
+|   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- class: 1
+
+
+=== m_D1 | Shallow Tree (depth=2) ===
+|--- chronic_count <= 0.50
+|   |--- age <= 29.50
+|   |   |--- class: 0
+|   |--- age >  29.50
+|   |   |--- class: 0
+|--- chronic_count >  0.50
+|   |--- chronic_count <= 1.50
+|   |   |--- class: 1
+|   |--- chronic_count >  1.50
+|   |   |--- class: 1
+
